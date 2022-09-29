@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading H1 tag 1`] = `
+<h1
+  data-test-id="cs-heading-tag"
+>
+  Heading 1
+</h1>
+`;
+
+exports[`Heading H2 tag 1`] = `
+<h2
+  data-test-id="cs-heading-tag"
+>
+  Heading 2
+</h2>
+`;
+
+exports[`Heading H3 tag 1`] = `
+<h3
+  data-test-id="cs-heading-tag"
+>
+  Heading 3
+</h3>
+`;
+
+exports[`Heading H4 tag 1`] = `
+<h4
+  data-test-id="cs-heading-tag"
+>
+  Heading 4
+</h4>
+`;
+
+exports[`Heading H5 tag 1`] = `
+<h5
+  data-test-id="cs-heading-tag"
+>
+  Heading 5
+</h5>
+`;
+
+exports[`Heading H6 tag 1`] = `
+<h6
+  data-test-id="cs-heading-tag"
+>
+  Heading 6
+</h6>
+`;

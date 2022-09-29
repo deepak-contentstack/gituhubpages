@@ -1,0 +1,19 @@
+@import '../../../tokens/variables.scss';
+@import '../../../tokens/tokens.css';
+@import '../../static/styles/css/typography.css';
+@import '../../static/styles/css/variable.css';
+@import '../../static/styles/css/common.css';
+
+@keyframes progress-slide {
+    100% 
+    ,0% {
+        fill: $color-base-gray-5;
+    }
+    60% {
+        opacity: 0.4;
+    }
+}
+
+.SkeletonTile__svg > g rect {
+    animation: progress-slide 1.8s infinite;
+}

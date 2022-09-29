@@ -1,0 +1,198 @@
+fileignoreconfig:
+  - filename: build/components/ContentTypeField/helper.d.ts
+    checksum: a097646b8b0833635330b5ee79628675b5e37b5fac13cde5bde53f8b34a71883
+  - filename: build/components/JsonRTE/SuperChargedRte/components/Popover/index.d.ts
+    checksum: 9254dfac7a503b45a84f5eb8f64eb113cc41abb523b1b83165cde6a7648955ff
+  - filename: build/components/JsonRTE/SuperChargedRte/components/SlashCommand/SlashElement.d.ts
+    checksum: 28a6d2e995e4267fe467ecd5975857fad7d979eae71b7939bf27a279f29cbb91
+  - filename: build/components/JsonRTE/SuperChargedRte/elements/Element/code/withCustomKeydown.d.ts
+    checksum: e8a127308bf599862a02edb3b912fc1a0db1578054f82755bd06d87b648db591
+  - filename: build/components/JsonRTE/lib/rteSDK/actions.d.ts
+    checksum: 23822ec6d334af4ec2a9106afb62f81c4b243b7f75aedeb9b7dcad895b7b7c16
+  - filename: build/components/TextInput/TextInput.d.ts
+    checksum: 2d10031e4cc1d4e94412f05d56dea424bcb97df609df86f95a3d87795573ce9a
+  - filename: build/index.esm.js
+    checksum: 2d9b71e33408d6ef7ad5e02ec834a1da8f026465a41b574406f06a1d42b66b98
+  - filename: build/index.esm.js.map
+    checksum: 90cab5bcf806a962497fb72aa311386199715e85422a236c14df52e8508f43de
+  - filename: build/index.js
+    checksum: aeea92e656f18f687b8bf8cc8bf7f58f8adbaf3e27b6abc85f10b9df37028994
+  - filename: build/index.js.map
+    checksum: d62a20c21437c32a00432762b190f78990ab971bf38da28e5e859a17c2fdcd1d
+  - filename: build/main.css
+    checksum: b402c7c80a545f636af1ddc212c8cf8d05433e9dcb1a2e5698d5192ecf79eb25
+  - filename: package-lock.json
+    checksum: 2be1f3607034707d5e347392b6a15259d3d3802a213f8645a36ee462a5b6d936
+  - filename: report.20220105.112703.5902.0.001.json
+    checksum: 6fd5fcddf29fd08ffc69a43494cec6a4348d3d89ea11da27a684a0793721d5ed
+  - filename: report.20220110.121345.11325.0.001.json
+    checksum: b09902d6374dbcbf348519a8811c27224c9a2a08536c16359c9d74f757c0208d
+  - filename: src/components/AdvanceSearch/AdvanceSearch.tsx
+    checksum: 1c046e3fe3f15a023734989fbbafcc513856a2c60a898f262c82c78d4cb91313
+  - filename: src/components/AdvanceSearch/AdvanceSearchQuery.tsx
+    checksum: c66307257b32f59983a03ff86f51d725a79e86275c2fcaab87a573fb6f6e214d
+  - filename: src/components/AdvanceSearch/AutoComplete.tsx
+    checksum: d9b3a14655a7d4183e8ab696423baaf65bdc065c62bbbeb88abced28274474a8
+  - filename: src/components/BranchDisplay/BranchDisplay.stories.tsx
+    checksum: 254abb22d78da28fb07959d3efabd84060e4d7b567bb520830b273c7858bb06c
+  - filename: src/components/BranchDisplay/BranchDisplay.tsx
+    checksum: 006d5a69134795fd50a3779582e39195314230cabfa0b8263d95d9dc82d70414
+  - filename: src/components/ContentTypeField/ContentTypeField.tsx
+    checksum: bde5af85f8307d44780140f2394b06dc7c1b0cddb358ea71f95c6a84ecae5b55
+  - filename: src/components/ContentTypeField/ContentTypeFieldProperties/File.tsx
+    checksum: 20118d64448fc716ba3c2df543dacddda2729b3f24f91605f7d1edd0fc2bd00d
+  - filename: src/components/ContentTypeField/ContentTypeFieldProperties/SelectField.tsx
+    checksum: 025a7bbf70228cbebd6bf07fb5ba0c44f95d172a8e145d6e7c2e3d8a6f03a318
+  - filename: src/components/ContentTypeField/helper.tsx
+    checksum: 60accd8895aa97931c6e29e0212d618906a3a7bb034038a0d09a9c60e972d8b9
+  - filename: src/components/DragDrop/DragDropFile.stories.tsx
+    checksum: 9523fd8049b3a4acd178aa6e60a83cb8cb81c2e45d4fa5c740f7fcb9f0a0443a
+  - filename: src/components/DropDown/Dropdown.stories.tsx
+    checksum: 6da28cc5c5c6229f480202057a299fb8d6ae8b0d8f377dbcb8a6954fbdfbef7b
+  - filename: src/components/DropDown/Dropdown.test.tsx
+    checksum: 019440657c78e64104efe588cdf020d00e4d1bac15b21b02948c0db045a55e54
+  - filename: src/components/DropDown/Dropdown.tsx
+    checksum: a21d927e49dcc7a5796c6aa8e5271e611b4d1902ae7bfe602a4e5ca6fd4c1228
+  - filename: src/components/FieldLabel/FieldLabel.stories.tsx
+    checksum: 5343bc25b3b2cd4376324889ab542c8566669cd15275ec55aa94b862f193f976
+  - filename: src/components/Icon2/Icon.stories.tsx
+    checksum: 5b84b292a89b7bd4945766adcb2789286d5d7b3a7286f60ec4438f9533b02963
+  - filename: src/components/InlineForms/InlineForms.tsx
+    checksum: 4893037bd22ead1b89c4b8b2db522995576852d47bc883dfb7c6cbfb0a56c2a8
+  - filename: src/components/InstructionText/InstructionText.stories.tsx
+    checksum: f39723a17c5d4e57a026ca75953499aaecb86a2106eb3925587982d914386267
+  - filename: src/components/JsonRTE/RichTextEditor.stories.tsx
+    checksum: ec575c6563f9c9bd7f96a723e48e59cd9f58dcc053b9ec48d2adf639f438b9a4
+  - filename: src/components/JsonRTE/SuperChargedRte/components/Editor/index.tsx
+    checksum: 2423b5ef810574cc24e138dbcc02835a74b76392f1752f3ae1ca532e16f84d00
+  - filename: src/components/JsonRTE/SuperChargedRte/components/SlashCommand/SlashComponent.tsx
+    checksum: 78c729f92aabc5868fb53b38e311455f2a12f8fe2620a9566e24c1baaf7a0d77
+  - filename: src/components/JsonRTE/SuperChargedRte/components/SlashCommand/SlashElement.tsx
+    checksum: 7f91018c9b2a9c247128abddb291657e34e4dabebd78f8328051cd2ff5a040e1
+  - filename: src/components/JsonRTE/SuperChargedRte/components/Toolbar/ToolbarTest.tsx
+    checksum: a134b58e4b370249f8d0601837d49ccecb2545bfe9769da0ec2e9dbdc8253b79
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/align/alignCenter/index.tsx
+    checksum: b36e9979a959ba347e0d05c4907e17fc057767542fe1542e153bd70d3c7eedea
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/align/alignJustify/index.tsx
+    checksum: e34bcb66aff2e475ac1f3bdf819ff42f2b6fd97aaddcefe699f7324e2aecdda4
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/align/alignLeft/index.tsx
+    checksum: 762a9ea72368d58fea2b1895b976ac6701668ec509ea2b6de5a93bcf5be0386b
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/align/alignRight/index.tsx
+    checksum: ceddb79009c3168619e9970ac7ebb6e5a0ca55d85b5a6a0800c0e08d742a3fc8
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/blockquote/index.tsx
+    checksum: 592b4557a068f46f89e8e827f87d13e46b6c46f2a9896586d50b9295f8410ff9
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/code/index.tsx
+    checksum: 290c891dcd3da2ea8be900a2906a6f0907d99eb6294cdd86a2e100fc973a192a
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/code/withCustomKeydown.tsx
+    checksum: a90e39a2bb9c647ed8a514f758e6370d40e95cac57b9635139d42e5e81fc8d12
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/contentstack/reference/assetReference/Asset.tsx
+    checksum: c806f763ec0bb04a8e88fd2fee969cfb72240de2e3345e8011a818291fcaae6d
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/contentstack/reference/linkReference/index.tsx
+    checksum: 39b7d2b7d78378cbe5ce8892c503d81f3413700202683e6a6bb09f005f2d9459
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/contentstack/utils/requests/assets.tsx
+    checksum: fd11ccdeebc152fc92182ab47455a2f57e2aff39e6a30d6d8820aefb03bf04da
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/contentstack/utils/requests/contentTypes.tsx
+    checksum: 2acf74b66589913ff839e29b4e68ef15ead20763fc6ac235b4654c1db9973f88
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/contentstack/utils/requests/entries.tsx
+    checksum: b346d989b6c5b9d2962531be35b616a874f18e5d6e4e85ebb7f3b88676fcb2e4
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/contentstack/utils/requests/environments.ts
+    checksum: d3fb11f7f4cca2f1ae8d78446e971cec0a41b32d21433dfd36595f1ebdb05567
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/divider/DividerElement.tsx
+    checksum: fbbe0c3e18b6b8a32edc61c470f0b81429e97f0c7e9c07cc50027936cce2a19e
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/embeds/EmbededElement.tsx
+    checksum: 8b2a87ee13035cfa0b013eb04ffa73d8749a724cffa1085f58f4353cc923c81f
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/heading/H1/index.tsx
+    checksum: c2f6ece098f61aa36fe728c2f9644905e9192a7178b1bb288244471ecf32cf61
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/heading/H2/index.tsx
+    checksum: ba3c4dbda906d4794a939c76ed39e633af704a1db767ae398bb7f94e965b8202
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/heading/H3/index.tsx
+    checksum: 908a33ab0daa326d8ec7a9ea984da401d91761d0f08420bbd1ca9c171aabaac7
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/heading/H4/index.tsx
+    checksum: 75cf923c4fa44c16321d289c1491dcc725e493b07aed875b4aaac1d67c1f3455
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/heading/H5/index.tsx
+    checksum: 3fa94ab30c98109aec1f129640a659b58b7cd2d0ca0eb03c1740d4b5ef3acede
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/heading/H6/index.tsx
+    checksum: 17ed16c52a98cff7ab69711fe175039cb77f78f1fdd605d6d3c70c312431fc9a
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/list/OrderedList/index.tsx
+    checksum: 12ddb0d4c4e4309d22ad2b688767138bee5731af6c2d22da0ec861cd1fe801cf
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/list/UnorderedList/index.tsx
+    checksum: db68571e6da399e170f45240d389959eb06c044d020607c35e513c570b64ee03
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/paragraph/index.tsx
+    checksum: 8ce8bedfc2dc61e0632459e6e607cc19075e0071218483d9406f4b3d0347f13c
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/utils/actions/handleDeleteOfElement.tsx
+    checksum: 51b7b801248427c204d0a07a5bc7ab2e6d659a9ea31be960eb0b416e6105f275
+  - filename: src/components/JsonRTE/SuperChargedRte/elements/utils/pasteHtml/deserializer/superchargedRTEDeserializer.tsx
+    checksum: a84985b0641786e56b1faa088f5fcacece5ca6f4c3dd9262b3ed73dced2a845b
+  - filename: src/components/JsonRTE/SuperChargedRte/utils/hooks/withRteExtension.ts
+    checksum: ea772def899c65f62fb60a2b36ced33c243e09e3bb18a3ddb8abe943a4d1051a
+  - filename: src/components/JsonRTE/SuperChargedRte/utils/rtePlugins/helper.ts
+    checksum: 08a6214369fb7c03c3940a63f94ea3401e018c30f14316c5a6862c05d6225638
+  - filename: src/components/JsonRTE/SuperChargedRte/utils/shortcuts/handleShortcut.tsx
+    checksum: 422f17546f7a7c1fce4e793d96cea9a2f855f7baf3357990b76e6e04153ba1a2
+  - filename: src/components/JsonRTE/lib/rteSDK/actions.ts
+    checksum: 2fa3092ced0ace09c65b68d871e9aa0ab6ef2b8ffd1f42fad19fe740a5dea11f
+  - filename: src/components/JsonRTE/lib/rteSDK/index.ts
+    checksum: c7786a01ed3202b9946a80e8526da227c9c6602672d147ed75376d2fa5116856
+  - filename: src/components/LeftNavigation/LeftNavigation.md
+    checksum: f7cc3f145535bf9565e76ae0ac00d58612b51ebd68778ed9e442e71108e25521
+  - filename: src/components/MarkdownEditor/MarkdownEditor.stories.tsx
+    checksum: 07b4457809a99dd2135ec5601ed9ee785954b31dfe4139b07d3a3b7528f5b35e
+  - filename: src/components/MiniScrollableTable/__snapshots__/MiniScrollableTable.test.tsx.snap
+    checksum: 98933879044ca2ff8bdd2c8bbbb33879db211acde8e504b1031adf65c1e3f2b9
+  - filename: src/components/Modal/Modal.md
+    checksum: 9b49014038879e3f36ae2b20f779722a35dcb82f4621132b85d53537678c572b
+  - filename: src/components/Modal/Modal.stories.tsx
+    checksum: 69c8521c779ec0714242156e945a6e0cc8ca5679a7ad5e7ffb41152194f3202d
+  - filename: src/components/MultiLevelDropdown/MultiLevelDropdown.stories.tsx
+    checksum: a9a2ae3efe5b23e1c2462c80fe19f7cee511ea35a1bcf0653a60afcc9dbe06fa
+  - filename: src/components/MultiLevelDropdown/MultiLevelDropdown.tsx
+    checksum: 8522d85294bd61d841dd8390238632cfe6d09b354ba4c75c108b2a95a95a6aa0
+  - filename: src/components/RichTextEditor/RichTextEditor.stories.tsx
+    checksum: 5d9a640274215c6354fd0268e7fd60d1b1e417dcb1571dea04c23fe847c6e835
+  - filename: src/components/RichTextEditor/SuperChargedRte/elements/Element/contentstack/reference/linkReference/index.tsx
+    checksum: 230a7b7ce9dce1718dfbcea5a7186fbbea38aeca9a27b6c625909ce4d08abaa5
+  - filename: src/components/RichTextEditor/SuperChargedRte/elements/Element/contentstack/utils/requests/contentTypes.tsx
+    checksum: c862155f6cef7a9f3aee75fa0cea3105d0525a5f74ff5c9ed6e1d402c0f6abe9
+  - filename: src/components/RichTextEditor/SuperChargedRte/elements/Element/contentstack/utils/requests/entries.tsx
+    checksum: 37db0bef22e831c9b462fcbe4a1a2d6863a139edd6eded2dda3ef0a5666062a6
+  - filename: src/components/RichTextEditor/SuperChargedRte/elements/Element/contentstack/utils/requests/environments.ts
+    checksum: a71acb9d7b072cfb13e8838049880f31bd0e1d81647cb812dc7d3c6e05de4379
+  - filename: src/components/RichTextEditor/SuperChargedRte/elements/Element/hyperlink/index.tsx
+    checksum: 79464b7041eec4c60fd81f24f02daf0aa721333650241b64fc4a9fdaca0a2387
+  - filename: src/components/RichTextEditor/SuperChargedRte/elements/utils/pasteHtml/deserializer/superchargedRTEDeserializer.tsx
+    checksum: 91298fb30bc4534142cd9ce558c362e50f5c53f51060d4e860d0a7273eeec595
+  - filename: src/components/RichTextEditor/SuperChargedRte/utils/serialize/toRedactor.tsx
+    checksum: f58d32c7f693a3471f3506003c34d92c03a75f18e1d3ba97af68ed7499239056
+  - filename: src/components/Select/Select.stories.tsx
+    checksum: fdf2477eee5a8f347d3eb0fe4ab93f97c9341ce94b34016f2b881eab5adb8394
+  - filename: src/components/Stepper/Stepper.tsx
+    checksum: aabd413f7dfe567ce72332f0b1a444bd928bd256cf5eeb6b07073ce6a0787b5b
+  - filename: src/components/Table/InfiniteScrollTable.test.tsx
+    checksum: 8ae0c60f9efbaa2c4df4fd5b3fe88ca4c0f6d7860bedb8ade9fc8449039417f8
+  - filename: src/components/Table/InfiniteScrollTable.tsx
+    checksum: 7f30e3f749946b5c828539e69f7822d3f6538246ec48eb0d43a968d29bf47052
+  - filename: src/components/Table/Table.stories.tsx
+    checksum: 5465613c1337a8122924b17bf40cc1a124b04eeab72455b623ceb5ead14baa70
+  - filename: src/components/Tabs/Tabs.tsx
+    checksum: c0c1783dacc59b872cbce6700d20974c0efbf2317acefb448d3908ff0d6f81f7
+  - filename: src/components/Tag/__snapshots__/TagEditor.test.tsx.snap
+    checksum: 7dbdb62b7bf4ba1f53b8b97cd0f5abad33ca63e9b75423884465b4174cf5519b
+  - filename: src/components/TextInput/TextInput.stories.tsx
+    checksum: e78143cc35fd44ae978979830a4817016b0832eaaf8cc97ccda2a38da1d4543d
+  - filename: src/components/TextInput/TextInput.test.tsx
+    checksum: 280f2af45623850437a9ee88d82487510c50e58f66d842aac9a56c8137e56b2a
+  - filename: src/components/TextInput/TextInput.tsx
+    checksum: b253dd9c33fb227005c78d7017517eb1c0820c3f88abd9808a18769a6eb02407
+  - filename: src/components/TextInput/__snapshots__/TextInput.test.tsx.snap
+    checksum: 569aee24d06b4026c7bce9c5e2f8290104ca3472846d7912f82f6fc55ab45378
+  - filename: src/components/Textarea/Textarea.stories.tsx
+    checksum: 49872a78ea2c896e3954ea7bf0f9a7e7c24a4e46627fd9d73776450bb5222777
+  - filename: src/components/Typography/Link/Link.stories.tsx
+    checksum: ea973c758b2331bc95f4114787f534bbad7e28306beaa20852ad0c868518033d
+  - filename: src/utils/hooks/depricatedPropsHoc.tsx
+    checksum: a4d12f7de6050b77c4821ed8c30c797c0c3d2d9698a6936ca7dd52a8b58426d6
+  - filename: yarn.lock
+    checksum: 5405611ec6800d083ece7e834c8f83846af4fd9cd0159036fb4c5df1f1f98ee5
+  - filename: src/components/ActionTooltip/ActionTooltip.test.tsx
+    checksum: 256bf53bc01f1d6e03053f39b96268de56322fe1df74e5ff134950eec6865998
+version: '1.0'

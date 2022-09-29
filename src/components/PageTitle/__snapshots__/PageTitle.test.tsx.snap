@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageTitle render PageTitle 1`] = `
+<div
+  className="PageTitle"
+>
+  Page Title 1
+</div>
+`;

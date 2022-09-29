@@ -1,0 +1,52 @@
+@import '../../../tokens/variables.scss';
+
+.ContentTypeSkeleton {
+	align-items: center;
+	display: flex;
+	justify-content: flex-start;
+
+	&__aside {
+		flex: 0 0 18.75rem;
+		width: 18.75rem;
+	}
+
+	&__items {
+		flex: 0 0 calc(100% - 18.75rem);
+		max-width: calc(100% - 18.75rem);
+		width: calc(100% - 18.75rem);
+	}
+
+	&__control {
+		margin-bottom: $space-16;
+	}
+
+	&__item {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 4.5rem;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	&__options {
+		display: flex;
+		flex: 0 0 6.25rem;
+		justify-content: flex-end;
+		width: 6.25rem;
+	}
+
+	&__option {
+		margin-left: $space-20;
+	}
+
+	&__entry {
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	&__icon {
+		margin-right: $space-20;
+	}
+}

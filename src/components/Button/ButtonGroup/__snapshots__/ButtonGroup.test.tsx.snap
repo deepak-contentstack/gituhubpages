@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonGroup It should render a ButtonGroup with custom style 1`] = `
+<div
+  className="Button__group"
+  data-test-id="cs-button-group"
+>
+  <button
+    aria-label="aria-button"
+    className="Button Button--light"
+    data-test-id="cs-button"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <div
+      className="flex-center"
+    >
+      <div
+        className="flex-v-center"
+        style={
+          Object {
+            "visibility": "visible",
+          }
+        }
+      >
+        Cancel
+      </div>
+    </div>
+  </button>
+  <button
+    aria-label="aria-button"
+    className="Button Button--secondary"
+    data-test-id="cs-button"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <div
+      className="flex-center"
+    >
+      <div
+        className="flex-v-center"
+        style={
+          Object {
+            "visibility": "visible",
+          }
+        }
+      >
+        Unpublish
+      </div>
+    </div>
+  </button>
+  <button
+    aria-label="aria-button"
+    className="Button Button--primary"
+    data-test-id="cs-button"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <div
+      className="flex-center"
+    >
+      <div
+        className="flex-v-center"
+        style={
+          Object {
+            "visibility": "visible",
+          }
+        }
+      >
+        Publish
+      </div>
+    </div>
+  </button>
+</div>
+`;
+
+exports[`ButtonGroup renders ButtonGroup component 1`] = `
+<div
+  className="Button__group"
+  data-test-id="cs-button-group"
+>
+  <button
+    aria-label="aria-button"
+    className="Button Button--light"
+    data-test-id="cs-button"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <div
+      className="flex-center"
+    >
+      <div
+        className="flex-v-center"
+        style={
+          Object {
+            "visibility": "visible",
+          }
+        }
+      >
+        Cancel
+      </div>
+    </div>
+  </button>
+  <button
+    aria-label="aria-button"
+    className="Button Button--secondary"
+    data-test-id="cs-button"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <div
+      className="flex-center"
+    >
+      <div
+        className="flex-v-center"
+        style={
+          Object {
+            "visibility": "visible",
+          }
+        }
+      >
+        Unpublish
+      </div>
+    </div>
+  </button>
+  <button
+    aria-label="aria-button"
+    className="Button Button--primary"
+    data-test-id="cs-button"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <div
+      className="flex-center"
+    >
+      <div
+        className="flex-v-center"
+        style={
+          Object {
+            "visibility": "visible",
+          }
+        }
+      >
+        Publish
+      </div>
+    </div>
+  </button>
+</div>
+`;

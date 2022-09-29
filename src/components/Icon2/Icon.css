@@ -1,0 +1,145 @@
+@import '../../../tokens/variables.scss';
+@import '../../../tokens/tokens.css';
+@import '../../static/styles/css/typography.css';
+@import '../../static/styles/css/variable.css';
+@import '../../static/styles/css/common.css';
+
+.IconStoriesWrapper {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: $font-family-primary;
+}
+
+.Icon--original {
+    height: auto;
+    width: auto;
+}
+
+.Icon--extraSmall {
+    height: $space-10;
+    width: $space-10;
+}
+
+.Icon--mini {
+    height: $space-12;
+    width: $space-12;
+}
+
+.Icon--tiny {
+    height: $space-14;
+    width: $space-14;
+}
+
+.Icon--small {
+    height: $space-18;
+    width: $space-18;
+}
+
+.Icon--medium {
+    height: $space-24;
+    width: $space-24;
+}
+
+.Icon--large {
+    height: $space-36;
+    width: $space-36;
+}
+
+.Icon--secondary {
+    path {
+        stroke: $color-base-orange-5;
+    }
+}
+
+.Icon--white {
+    path {
+        stroke: $color-base-white-5;
+    }
+}
+
+/* CSS for optional div container around the icon */
+
+.Icon__shadow {
+    background: $color-brand-secondary-lighter;
+    border-radius: $radii-50;
+    cursor: pointer;
+    
+    &-mini {
+        height: $space-24;
+        width: $space-24;
+    }
+    
+    &-tiny {
+        height: $space-30;
+        width: $space-30;
+    }
+
+    &-medium {
+        height: $space-40;
+        width: $space-40;
+    }
+}
+
+/* Default, Hover, Active icon variations (test) */
+
+.Icon--hover--primary {
+    path, circle, rect {
+        stroke: $color-base-purple-5;
+    }
+}
+
+.Icon--hover--secondary {
+    path[stroke], circle[stroke], rect[stroke] {
+        stroke: $color-base-gray-20;
+    }
+    path[fill], circle[fill], rect[fill] {
+        fill: $color-base-gray-20;
+    }
+}
+
+.Icon--active {
+    fill: $color-base-purple-5;
+    path {
+        fill: $color-base-purple-5;
+        stroke: $color-base-purple-5;
+    }
+}
+
+/* css for custom hover and active state in storybook stories*/
+.custom-hover-red {
+    path {
+        stroke: $color-border-warning;
+    }
+}
+
+.custom-active-red {
+    fill: $color-border-warning;
+    path {
+        fill: $color-border-warning;
+        stroke: $color-border-warning;
+    }
+}
+
+/* ---Icon wrapper CSS */
+.icon-spacing {
+    background: #eaeaea;
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 5px;
+    padding: $space-5;
+    padding-left: 13px;
+    width: 310px;
+    svg{
+        vertical-align: middle;
+    }
+    .icon-flex{
+        align-items: center;
+        display: flex;
+        .icon-name{
+            cursor: pointer;
+            padding: $space-5;
+            padding-left: 13px;
+        }
+    }
+}

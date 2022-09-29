@@ -1,0 +1,20 @@
+import React from 'react';
+import './PublishDetails.css';
+declare type PublishStatusProps = {
+    label?: string;
+    style?: React.CSSProperties;
+    className?: string;
+    details?: React.ReactNode | string | undefined;
+    color?: string;
+    environment?: string;
+    version?: string;
+    locale?: string;
+    userName?: string;
+    scheduledAt?: string;
+    dateTime?: any;
+    publishAction?: string;
+    versionOnClick?: Function;
+    url?: React.ReactNode | string;
+};
+declare const PublishDetails: React.FunctionComponent<PublishStatusProps>;
+export default PublishDetails;

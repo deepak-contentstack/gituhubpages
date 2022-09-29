@@ -1,0 +1,60 @@
+@import '../../../tokens/variables.scss';
+@import '../../../tokens/tokens.css';
+@import '../../static/styles/css/typography.css';
+@import '../../static/styles/css/variable.css';
+@import '../../static/styles/css/common.css';
+
+.PageHeader {
+    align-items: center;
+    display: flex;
+    font-family: $font-family-primary;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+
+    .PageTitleWrapper {
+        align-items: center;
+        display:flex;
+
+        .PageHeaderIcon {
+            align-items: center;
+            cursor: pointer;
+            display: block;
+            display: flex;
+            height: calc(var(--space-22) + var(--space-5));
+            padding-left: $space-6;
+        }
+    }
+
+    &--Sidebar{
+        margin-left: 2.813rem;
+        .SidebarWindow {
+            height: 100vh;
+            padding-bottom: 1.75rem;
+            right: -1.125rem;
+            top: -1.75rem;
+
+            &__tab-item {
+                &:after {
+                    display: none;
+                }
+            }
+            &__content {
+                &__title {
+                    padding-top: $space-14;
+                }
+            }
+            &__tabs-container {
+                margin-top: $space-14;
+            }
+        }
+    }
+}
+
+.PageSubTitle {
+    color: $color-font-base;
+    font-size: $size-font-small;
+    font-weight: $font-weight-medium;
+    position: absolute;
+    top: $space-36;
+}

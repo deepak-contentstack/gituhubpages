@@ -1,0 +1,17 @@
+declare const getMonth: (value: any) => number;
+declare const getDay: (value: any) => number;
+declare const getYear: (value: any) => number;
+declare const getMinDate: any;
+declare const getMaxDate: (value: any) => Date;
+declare const getRegex: (type: any) => "^[0-9-]*$" | "";
+declare const getInitialDate: (date: any, format?: any) => Date;
+declare const getStartDate: (date: any) => Date;
+declare const getEndDate: (date: any, startDate: any) => Date;
+declare const getFormat: (value: any) => "yyyy-MM-dd" | "MM dd yyyy" | "dd MMM yyyy" | "MMMM dd, yyyy";
+declare let StandardZoneOptions: (defaultZone: any) => any[];
+declare const getInitialTime: (value: any) => string;
+declare let DSTZoneOptions: any[];
+declare let formatTZLabel: (lbl: any, val: any, tzOffSet: any) => any;
+declare const getInitialTimeZone: (inputZone: any, ZoneOptions: any) => any;
+declare const defaultTimezone: (zoneValue: any) => any;
+export { getMonth, getDay, getYear, getMinDate, getMaxDate, getRegex, getInitialDate, getStartDate, getEndDate, getFormat, StandardZoneOptions, getInitialTimeZone, getInitialTime, DSTZoneOptions, defaultTimezone, formatTZLabel };

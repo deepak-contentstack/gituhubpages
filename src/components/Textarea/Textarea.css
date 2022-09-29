@@ -1,0 +1,137 @@
+@import '../../../tokens/variables.scss';
+@import '../../../tokens/tokens.css';
+@import '../../static/styles/css/typography.css';
+@import '../../static/styles/css/variable.css';
+@import '../../static/styles/css/common.css';
+
+.Textarea {
+    display: flex;
+
+    &__char-length{
+        color: $color-font-base;
+        float:right;
+        font-size: $size-font-tiny;
+        font-weight: $font-weight-regular;
+        margin-right: -$space-15;
+        margin-top: $space-5;
+        visibility: hidden;
+        &--reached{
+            color: $color-base-orange-20;
+        }
+    }
+
+    &--with-count{
+        display: block;
+        margin-bottom:-$space-2;
+        padding-right: $space-20;
+    }
+}
+
+.Textarea__textarea {
+    background-color: $color-brand-white-base;
+    border: 0;
+    border-bottom: $space-2 solid transparent;
+    box-sizing: content-box;
+    color: $color-font-black;
+    flex-basis: 100%;
+    font-family: $font-family-primary;
+    font-size:$size-font-large;
+    line-height: $space-30;
+    max-height: 31.25rem;
+    min-height: $space-30;
+    outline: none;
+    padding: $space-4 $space-10 $space-4 $space-10;
+    resize: vertical;
+    
+    &::-webkit-input-placeholder {
+        color: $color-font-secondary;
+    }
+    &:hover{
+        background-color: $color-brand-secondary-lighter;
+        border-radius: $radii-8;
+    }
+    &:focus {
+        background-color: $color-brand-white-base;
+        border-radius: $radii-8;
+        box-shadow: 0 $space-4 $space-24 rgba(0, 0, 0, 0.1);
+        outline:none;
+
+        & ~ .Textarea__char-length{
+            visibility: visible;
+        }
+    }
+}
+
+
+
+.Textarea--small {
+    width: 7.5rem;
+}
+
+.Textarea--medium {
+    width: 15rem;
+}
+
+.Textarea--large {
+    width: 26.25rem;
+}
+
+.Textarea--x-large {
+    width: 48.13rem;
+}
+
+.Textarea--full {
+    width: 100%;
+}
+
+.Textarea--resize {
+    position: relative;
+    .Textarea__textarea {
+        height: $space-30;
+        resize: none;
+    }
+    &--hover {
+        height: $space-2;
+        &:hover {
+            .Textarea--resize__icon svg path {
+                fill : $color-brand-primary-base;
+            }
+            .Textarea--resize__line {
+                &>div{
+                background-color: $color-brand-primary-base;
+                border-radius: 0 0 $radii-8 $radii-8;
+                height:$space-2;
+        }
+            }
+        }
+    }
+    &__icon {
+        bottom: 0;
+        cursor: row-resize;
+        padding:0 $space-5 $space-4 0;
+        position: absolute;
+        right: 0;
+    }
+    &__line { 
+        bottom: 0;
+        cursor: row-resize;
+        height: $space-4;
+        padding: 0 $space-4 ;
+        position: absolute;
+        width: 100%;
+    }
+}
+
+.Textarea--disabled {
+    & .Textarea__textarea {
+        background-color: $color-brand-white-base;
+        color:$color-base-gray-35;
+        cursor: not-allowed;
+    }
+}
+
+.Textarea--negative {
+    & .Textarea__textarea {
+        border-bottom: $space-2 solid $color-border-warning;
+    }
+}

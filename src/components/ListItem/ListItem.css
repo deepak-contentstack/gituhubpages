@@ -1,0 +1,41 @@
+@import '../../../tokens/variables.scss';
+@import '../../../tokens/tokens.css';
+@import '../../static/styles/css/typography.css';
+@import '../../static/styles/css/common.css';
+
+.ListItem__Wrapper {
+    &__Content {
+        color: $color-brand-black-base;
+    }
+
+    .ListItem {
+        align-items: baseline;
+    }
+
+    .ListItem__Icon {
+        margin: 0.188rem 0.5rem 0 !important;
+    }
+    
+    .ListItem__Content,
+    .ListItem__HelpText {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 94%;
+    }
+    
+    &:hover {
+        background: $color-brand-white-darker;
+        border-radius: 0.25rem;
+        cursor: pointer;
+        color: $color-brand-primary-base;
+
+        .ListItem__Content, .ListItem__HelpText {
+            color: $color-brand-primary-base;
+        }
+
+        .ListItem__Icon > path {
+            fill: $color-brand-primary-base;
+        }
+    }
+}

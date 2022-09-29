@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the component 1`] = `
+Array [
+  "ActionBar",
+  <div
+    className="ActionBar"
+    data-test-id="action-bar"
+    onClick={[MockFunction]}
+  >
+    <div
+      className="ActionBar_bar"
+    >
+      <div
+        className="ActionBar_sign"
+      >
+        <div
+          className="tippy-wrapper"
+          data-test-id="cs-tooltip"
+        />
+        Abc
+      </div>
+    </div>
+  </div>,
+]
+`;

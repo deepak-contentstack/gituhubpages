@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActionTooltip Checks if it renders the component correctly 1`] = `
+<div
+  className="ActionTooltip ActionTooltip--primary"
+  data-test-id="cs-actiontooltip"
+  onKeyDown={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  tabIndex={0}
+>
+  <div
+    className="ActionTooltip ActionTooltip--primary ActionTooltip-row"
+    data-test-id="cs-actiontooltip"
+    onKeyDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    tabIndex={0}
+  >
+    <div
+      style={
+        Object {
+          "border": "2px solid grey",
+          "height": "30px",
+          "width": "600px",
+        }
+      }
+    >
+      Item 1
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ActionTooltip Checks if it renders the component correctly with custom classnames list 1`] = `
+<div
+  className="ActionTooltip ActionTooltip--primary"
+  data-test-id="cs-actiontooltip"
+  onKeyDown={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  tabIndex={0}
+>
+  <div
+    className="ActionTooltip ActionTooltip--secondary ActionTooltip-row"
+    data-test-id="cs-actiontooltip"
+    onKeyDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    tabIndex={0}
+  >
+    <div
+      style={
+        Object {
+          "border": "2px solid grey",
+          "height": "30px",
+          "width": "600px",
+        }
+      }
+    >
+      Item 1
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ActionTooltip Checks if it renders the component correctly with type secondary 1`] = `
+<div
+  className="ActionTooltip ActionTooltip--primary"
+  data-test-id="cs-actiontooltip"
+  onKeyDown={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  tabIndex={0}
+>
+  <div
+    className="ActionTooltip ActionTooltip--secondary ActionTooltip-row"
+    data-test-id="cs-actiontooltip"
+    onKeyDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    tabIndex={0}
+  >
+    <div
+      style={
+        Object {
+          "border": "2px solid grey",
+          "height": "30px",
+          "width": "600px",
+        }
+      }
+    >
+      Item 1
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ActionTooltip render Default ActionTooltip 1`] = `
+<div
+  className="ActionTooltip ActionTooltip--primary"
+  data-test-id="cs-actiontooltip"
+  onKeyDown={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  tabIndex={0}
+>
+  <div
+    style={
+      Object {
+        "border": "2px solid grey",
+        "height": "30px",
+        "width": "600px",
+      }
+    }
+  >
+    Item 1
+  </div>
+</div>
+`;

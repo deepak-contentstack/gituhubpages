@@ -1,0 +1,365 @@
+@import '../../../tokens/variables.scss';
+@import '../../../tokens/tokens.css';
+@import '../../static/styles/css/typography.css';
+@import '../../static/styles/css/variable.css';
+@import '../../static/styles/css/common.css';
+
+@mixin font-Inter {
+    font-family: $font-family-primary;
+}
+
+.tippy-box[data-animation='fade'][data-state='hidden'] {
+    opacity: $opacity-0;
+}
+
+.tippy-box[data-inertia][data-state='visible'] {
+    transition-timing-function: cubic-bezier(0.54, 1.5, 0.38, 1.11);
+}
+
+.tippy-wrapper{
+    display: inline-block;
+}
+
+.tippy-box-dark {
+    background-color: $color-brand-secondary-dark;
+    border-radius: $radii-4;
+    color: $color-font-white;
+    cursor: pointer;
+    font-size: $size-font-small;
+    font-weight: $font-weight-medium;
+    letter-spacing: 0.04em;
+    min-height:$space-22;
+    transition-property: transform,visibility,opacity;
+    @include font-Inter;
+    
+    >.tippy-content {
+        line-height: $space-15;
+        padding: $space-4 $space-8;
+    }
+}
+
+.tippy-box-dark-tooltip {
+    background-color: $color-brand-secondary-dark;
+    border-radius: $radii-4;
+    color: $color-font-white;
+    cursor: pointer;
+    font-size: $size-font-small;
+    font-weight: $font-weight-medium;
+    letter-spacing: 0.04em;
+    min-height:$space-22;
+    transition-property: transform,visibility,opacity;
+    @include font-Inter;
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    width:max-content;
+    
+
+    >.tippy-content {
+        line-height: $space-15;
+        padding: $space-4 $space-8;
+    }
+}
+
+.tippy-box-light {
+    background-color: $color-brand-white-base;
+    border-radius: $radii-10;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
+    color: $color-font-base;
+    cursor: pointer;
+    font-size: $size-font-small;
+    font-weight: $font-weight-medium;
+    letter-spacing: -6e-05em;
+    text-align: left;
+    @include font-Inter;
+
+    &--primary {
+        max-height: 22.81rem;
+        max-width: 25rem!important;
+        overflow: auto;
+        padding: calc(var(--space-16) + 1px) $space-20;
+        width: 25rem;
+
+        > .tippy-content {
+            .tippy-card {
+                border-bottom: 1px solid $color-border-lighter;
+                margin-bottom: $space-20;
+                padding-bottom: $space-8;
+                position: relative;
+
+                .Env-label {
+                    color: $color-font-base;
+                    font-size: $size-font-small;
+                    font-weight: $font-weight-medium;
+                    margin-left: $space-5;
+                }
+
+                .tippy-card-content {
+                    padding: $space-18 0 $space-18 $space-15;
+
+                    .tippy-label {
+                        color: $color-font-base;
+                        font-size: $size-font-small;
+                        font-weight: $font-weight-bold;
+                    }
+                    .tippy-value {
+                        color:$color-font-tertiary;
+                        font-size: $size-font-small;
+                        font-weight: $font-weight-medium;
+                        letter-spacing: -6e-5em;
+                        margin-top: $space-5;
+                    }
+                    .tippy-lang {
+                        color: $color-font-base;
+                        font-size: $size-font-small;
+                        font-weight: $font-weight-regular;
+                    }
+                }
+                &:last-child {
+                    border-bottom: 0;
+                    margin-bottom: 0;
+                    padding-bottom: 0;
+                }
+            }
+        }
+    }
+
+    &--secondary {
+        max-width: 22.5rem !important;
+        padding: $space-15 $space-20;
+        width: auto;
+
+        >.tippy-content {
+            line-height: $space-15;
+            .tippy-content-title {
+                color:$color-font-base;
+                font-weight: $font-weight-bold;
+                margin-bottom: $space-6;
+            }
+        }
+    }
+
+
+    &--dynamic {
+        padding: $space-15 $space-20;
+        > .tippy-content {
+            line-height: $space-15;
+            .tippy-content-title {
+                color: $color-font-base;
+                font-weight: $font-weight-bold;
+                margin-bottom: $space-6;
+            }
+        }
+    }
+}
+
+.TooltipWrapper {
+    padding:  3.125rem 6.25rem;
+}
+
+.KeyShortcut {
+    background: $color-brand-primary-base;
+    border-radius: $space-5;
+    color: $color-font-white;
+    font-size: $size-font-tiny;
+    font-weight: $font-weight-bold;
+    height: $space-20;
+    margin-left: $space-10;
+    padding: $space-5 0;
+    text-align: center;
+    width: $space-20;
+}
+
+.tippy-box-light-menu {
+    border-radius: $radii-6;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: $color-font-base;
+    font-size: $size-font-small;
+    font-weight: $font-weight-medium;
+    padding: $space-6 $space-10;
+    position: relative;
+    right: 1px;
+    transition: 0ms !important;
+    white-space: nowrap;
+    .tippy-content {
+        transition: 0ms !important;
+    }
+}
+
+.tippy-arrow-light {
+    border: $radii-8 solid transparent;
+    height: 0;
+    position: absolute;
+    width: 0;
+    
+    &-left{
+        align-self: center;
+        border-right: $radii-8 solid $color-brand-white-base !important;
+        left: -$space-16
+    }
+
+    &-left-start{
+        align-self: flex-start;
+        border-right: $radii-8 solid $color-brand-white-base !important;
+        left: -$space-16
+    }
+
+    &-left-end{
+        align-self: flex-end;
+        border-right: $radii-8 solid $color-brand-white-base !important;
+        left: -$space-16
+    }
+    
+    &-right{
+        align-self: center;
+        border-left: $radii-8 solid $color-brand-white-base !important;
+        right: -$space-16
+    }
+
+    &-right-start{
+        align-self: flex-start;
+        border-left: $radii-8 solid $color-brand-white-base !important;
+        right: -$space-16
+    }
+
+    &-right-end{
+        align-self: flex-end;
+        border-left: $radii-8 solid $color-brand-white-base !important;
+        right: -$space-16
+    }
+
+    &-top{
+        border-bottom: $radii-8 solid $color-brand-white-base !important;
+        left: calc(50% - var(--space-8));
+        top: -$space-16;
+        
+    }
+
+    &-top-start{
+        border-bottom: $radii-8 solid $color-brand-white-base !important;
+        left: calc(20% - var(--space-8));
+        top: -$space-16;
+    }
+
+    &-top-end{
+        border-bottom: $radii-8 solid $color-brand-white-base !important;
+        right: calc(20% - var(--space-8));
+        top: -$space-16;
+    }
+    
+    &-bottom{
+        border-top: $radii-8 solid $color-brand-white-base !important;
+        bottom: -$space-16;
+        left: calc(50% - var(--space-8));
+    }
+
+    &-bottom-start{
+        border-top: $radii-8 solid $color-brand-white-base !important;
+        bottom: -$space-16;
+        left: calc(20% - var(--space-8));
+    }
+
+    &-bottom-end{
+        border-top: $radii-8 solid $color-brand-white-base !important;
+        bottom: -$space-16;
+        right: calc(20% - var(--space-8));
+    }
+}
+
+.tippy-arrow-dark {
+    border: $radii-8 solid transparent;
+    height: 0;
+    position: absolute;
+    width: 0;
+    
+    &-left{
+        align-self: center;
+        border-right: $radii-8 solid $color-brand-secondary-dark !important;
+        left: -$space-16
+    }
+
+    &-left-start{
+        align-self: flex-start;
+        border-right: $radii-8 solid $color-brand-secondary-dark !important;
+        left: -$space-16
+    }
+
+    &-left-end{
+        align-self: flex-end;
+        border-right: $radii-8 solid $color-brand-secondary-dark !important;
+        left: -$space-16
+    }
+    
+    &-right{
+        align-self: center;
+        border-left: $radii-8 solid $color-brand-secondary-dark !important;
+        right: -$space-16
+    }
+
+    &-right-start{
+        align-self: flex-start;
+        border-left: $radii-8 solid $color-brand-secondary-dark !important;
+        right: -$space-16
+    }
+
+    &-right-end{
+        align-self: flex-end;
+        border-left: $radii-8 solid $color-brand-secondary-dark !important;
+        right: -$space-16
+    }
+
+    &-top{
+        border-bottom: $radii-8 solid $color-brand-secondary-dark !important;
+        left: calc(50% - var(--space-8));
+        top: -$space-16;
+        
+    }
+
+    &-top-start{
+        border-bottom: $radii-8 solid $color-brand-secondary-dark !important;
+        left: calc(20% - var(--space-8));
+        top: -$space-16;
+    }
+
+    &-top-end{
+        border-bottom: $radii-8 solid $color-brand-secondary-dark !important;
+        right: calc(20% - var(--space-8));
+        top: -$space-16;
+    }
+    
+    &-bottom{
+        border-top: $radii-8 solid $color-brand-secondary-dark !important;
+        bottom: -$space-16;
+        left: calc(50% - var(--space-8));
+    }
+
+    &-bottom-start{
+        border-top: $radii-8 solid $color-brand-secondary-dark !important;
+        bottom: -$space-16;
+        left: calc(20% - var(--space-8));
+    }
+
+    &-bottom-end{
+        border-top: $radii-8 solid $color-brand-secondary-dark !important;
+        bottom: -$space-16;
+        right: calc(20% - var(--space-8));
+    }
+}
+
+.closeContainer{
+    border-radius: $radii-50;
+    cursor: pointer;
+    height: $space-32;
+    width: $space-32;
+    &:hover{
+        background: $color-brand-secondary-lighter;
+        svg {
+            path {
+                stroke: $color-base-gray-20;
+            }
+        }
+    }
+}
+.tippy-content {
+    overflow-wrap: break-word;
+}

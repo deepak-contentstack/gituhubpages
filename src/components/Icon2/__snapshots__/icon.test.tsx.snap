@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon render Icons with data 1`] = `
+Array [
+  <div
+    className="flex IconStoriesWrapper"
+  >
+    <div
+      className="flex-v-center"
+      data-test-id="cs-Icon"
+    >
+      data as string
+    </div>
+  </div>,
+  <div
+    className="flex IconStoriesWrapper"
+  >
+    <div
+      className="flex-v-center"
+      data-test-id="cs-Icon"
+    >
+      data as markup
+    </div>
+  </div>,
+]
+`;
+
+exports[`Icon render Icons with data and shadow 1`] = `
+Array [
+  <div
+    className=""
+  >
+    <div
+      className="flex-v-center"
+      data-test-id="cs-Icon"
+    >
+      <div
+        className="flex-center flex-v-center Icon__shadow-medium"
+      />
+      data as string
+    </div>
+  </div>,
+  <div
+    className=""
+  >
+    <div
+      className="flex-v-center"
+      data-test-id="cs-Icon"
+    >
+      <div
+        className="flex-center flex-v-center Icon__shadow-medium"
+      />
+      data as markup
+    </div>
+  </div>,
+]
+`;
+
+exports[`Icon render Icons with different icon state 1`] = `
+Array [
+  <div>
+    ICONS DEFAULT :
+  </div>,
+  <div
+    style={
+      Object {
+        "columns": "4",
+        "width": "800px",
+      }
+    }
+  >
+    <div
+      className="icon-spacing"
+    />
+    <div
+      className="icon-spacing"
+    />
+    <div
+      className="icon-spacing"
+    />
+    <div
+      className="icon-spacing"
+    />
+    <div
+      className="icon-spacing"
+    />
+    <div
+      className="icon-spacing"
+    />
+  </div>,
+  <div>
+    ICONS HOVER :
+  </div>,
+  <div
+    style={
+      Object {
+        "columns": "4",
+        "width": "800px",
+      }
+    }
+  >
+    <div
+      className="icon-spacing"
+    />
+    <div
+      className="icon-spacing"
+    />
+    <div
+      className="icon-spacing"
+    />
+    <div
+      className="icon-spacing"
+    />
+    <div
+      className="icon-spacing"
+    />
+    <div
+      className="icon-spacing"
+    />
+  </div>,
+  <div>
+    ICONS PRESSED/SELECTED :
+  </div>,
+  <div
+    style={
+      Object {
+        "columns": "4",
+        "width": "800px",
+      }
+    }
+  >
+    <div
+      className="icon-spacing"
+    />
+    <div
+      className="icon-spacing"
+    />
+    <div
+      className="icon-spacing"
+    />
+    <div
+      className="icon-spacing"
+    />
+    <div
+      className="icon-spacing"
+    />
+    <div
+      className="icon-spacing"
+    />
+  </div>,
+]
+`;
+
+exports[`Icon render default icons 1`] = `
+<div
+  style={
+    Object {
+      "columns": "4",
+      "width": "800px",
+    }
+  }
+>
+  <div
+    className="icon-spacing"
+  />
+  <div
+    className="icon-spacing"
+  />
+  <div
+    className="icon-spacing"
+  />
+  <div
+    className="icon-spacing"
+  />
+  <div
+    className="icon-spacing"
+  />
+  <div
+    className="icon-spacing"
+  />
+</div>
+`;
+
+exports[`Icon render icon with fill property 1`] = `
+<div>
+  <div>
+    Default Icon
+  </div>
+  <div>
+    Icon with fill property
+  </div>
+</div>
+`;
+
+exports[`Icon render icon with height and width property 1`] = `
+<div>
+  <div>
+    Default Icon
+  </div>
+  <div>
+    Icon with height and width property
+  </div>
+</div>
+`;
+
+exports[`Icon render icon with stroke property 1`] = `
+<div>
+  <div>
+    Default Icon
+  </div>
+  <div>
+    Icon with stroke property
+  </div>
+</div>
+`;
+
+exports[`Icon render icons with different sizes 1`] = `
+<div>
+  <div>
+     Tiny
+  </div>
+  <div>
+     Small
+  </div>
+  <div>
+     Large
+  </div>
+</div>
+`;

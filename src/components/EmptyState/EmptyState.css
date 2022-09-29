@@ -1,0 +1,113 @@
+@import '../../../tokens/variables.scss';
+@import '../../../tokens/tokens.css';
+@import '../../static/styles/css/typography.css';
+@import '../../static/styles/css/common.css';
+
+.EmptyStateWrapper {
+    font-family: $font-family-primary;
+    width: 100%;
+
+    &--card {
+        height: calc(100vh - 9.375rem);
+    }
+    &--list {
+        height: calc(100vh - 12.25rem);
+    }
+    &--fullPage {
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &--empty{
+        height: auto !important;
+    }
+
+    .EmptyState {
+        max-width: 25rem;
+        position: static;
+        top: 0;
+        transform: none;
+
+        &__description {
+            color: $color-brand-secondary-base;
+            font-size: $size-font-medium;
+            font-weight: $font-weight-medium;
+            line-height: $space-16;
+            margin-top: $space-20;
+        }
+
+        &__footer {
+            color: $color-brand-secondary-base;
+            font-size: $size-font-small;
+            font-weight: $font-weight-medium;
+            line-height: $space-16;
+            margin-top: $space-20;
+        }
+
+        &--primary,&--secondary,&--tertiary {
+            text-align: center;
+            .EmptyState__actions{
+                margin-top: $space-20;
+            }
+        }
+
+        &--primary {
+            .EmptyState__title {
+                color: $color-brand-secondary-dark;
+                font-size: $size-font-3-xl;
+                font-weight: $font-weight-extra-bold;
+                letter-spacing: -0.00019em;
+                line-height: 1.6875rem;
+                margin-top: 0;
+            }
+        }
+    
+        &--secondary{
+            .EmptyState__title{
+                color: $color-brand-secondary-dark;
+                font-size: $size-font-2-xl;
+                font-weight: $font-weight-bold;
+                line-height: $space-22;
+            }
+        }
+
+        &__title {
+            &.EmptyState__title--large {
+                color: $color-font-secondary;
+                font-size: $size-font-3-xl;
+                font-weight: $font-weight-extra-bold;
+            }
+            &.EmptyState__title--small {
+                color: $color-brand-secondary-light;
+                font-size: $size-font-medium;
+                font-weight: $font-weight-bold;
+                line-height: $space-20;
+            }
+        }
+        
+        .EmptyState__link {
+            color: $color-font-link;
+            cursor: pointer;
+            font-size: $size-font-medium;
+            font-weight: $font-weight-medium;
+            line-height: $space-16;
+            text-decoration: none;
+            svg{
+                margin-right: $space-5;
+                path{
+                    stroke: $color-font-link;
+                }
+            }
+        }
+    
+        .Button--primary{
+            svg{
+                path{
+                    stroke: $color-brand-white-base;
+                }
+            }
+        }
+    }
+}
+

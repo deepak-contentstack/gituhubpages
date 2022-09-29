@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InstructionText render default InstructionText 1`] = `
+<p
+  className="InstructionText"
+  data-test-id="cs-instruction-text"
+>
+  InstructionText text here
+</p>
+`;
+
+exports[`InstructionText renders the component with an additional style 1`] = `
+<p
+  className="InstructionText"
+  data-test-id="cs-instruction-text"
+  style={
+    Object {
+      "color": "red",
+    }
+  }
+>
+  InstructionText text here
+</p>
+`;

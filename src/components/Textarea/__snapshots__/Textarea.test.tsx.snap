@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Textarea Textarea with disabled 1`] = `
+<div
+  className="Textarea Textarea--full Textarea--disabled"
+  data-test-id="cs-text-area"
+>
+  <textarea
+    className="Textarea__textarea"
+    dir="auto"
+    disabled={true}
+    onChange={[Function]}
+    placeholder="-"
+  />
+</div>
+`;
+
+exports[`Textarea Textarea with error 1`] = `
+<div
+  className="Textarea Textarea--full Textarea--negative"
+  data-test-id="cs-text-area"
+>
+  <textarea
+    className="Textarea__textarea"
+    dir="auto"
+    disabled={false}
+    onChange={[Function]}
+    placeholder="Type something..."
+  />
+</div>
+`;
+
+exports[`Textarea Textarea with id 1`] = `
+<div
+  className="Textarea Textarea--full"
+  data-test-id="cs-text-area"
+>
+  <textarea
+    className="Textarea__textarea"
+    dir="auto"
+    disabled={false}
+    id="inputText"
+    onChange={[Function]}
+    placeholder="Type something..."
+  />
+</div>
+`;
+
+exports[`Textarea Textarea with max-length 1`] = `
+<div
+  className="Textarea Textarea--full"
+  data-test-id="cs-text-area"
+>
+  <textarea
+    className="Textarea__textarea"
+    dir="auto"
+    disabled={false}
+    maxLength={50}
+    onChange={[Function]}
+    placeholder="Type something..."
+  />
+</div>
+`;
+
+exports[`Textarea Textarea with name 1`] = `
+<div
+  className="Textarea Textarea--full"
+  data-test-id="cs-text-area"
+>
+  <textarea
+    aria-label="inputText"
+    className="Textarea__textarea"
+    dir="auto"
+    disabled={false}
+    name="inputText"
+    onChange={[Function]}
+    placeholder="Type something..."
+  />
+</div>
+`;
+
+exports[`Textarea Textarea with required 1`] = `
+<div
+  className="Textarea Textarea--full"
+  data-test-id="cs-text-area"
+>
+  <textarea
+    className="Textarea__textarea"
+    dir="auto"
+    disabled={false}
+    onChange={[Function]}
+    placeholder="Type something..."
+  />
+</div>
+`;
+
+exports[`Textarea Textarea with rows 1`] = `
+<div
+  className="Textarea Textarea--full"
+  data-test-id="cs-text-area"
+>
+  <textarea
+    className="Textarea__textarea"
+    dir="auto"
+    disabled={false}
+    onChange={[Function]}
+    placeholder="Type something..."
+    rows={2}
+  />
+</div>
+`;
+
+exports[`Textarea Textarea with showCharacterCount 1`] = `
+<div
+  className="Textarea Textarea--full Textarea--with-count"
+  data-test-id="cs-text-area"
+>
+  <textarea
+    className="Textarea__textarea"
+    dir="auto"
+    disabled={false}
+    onChange={[Function]}
+    placeholder="Type something..."
+  />
+  <span
+    className="Textarea__char-length"
+  >
+    0 / undefined
+  </span>
+</div>
+`;
+
+exports[`Textarea Textarea with value 1`] = `
+<div
+  className="Textarea Textarea--full"
+  data-test-id="cs-text-area"
+>
+  <textarea
+    className="Textarea__textarea"
+    dir="auto"
+    disabled={false}
+    onChange={[Function]}
+    placeholder="Type something..."
+    value="Some text"
+  />
+</div>
+`;

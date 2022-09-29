@@ -1,0 +1,16 @@
+@import '../../../tokens/variables.scss';
+@import '../../../tokens/tokens.css';
+@import '../../static/styles/css/typography.css';
+@import '../../static/styles/css/variable.css';
+@import '../../static/styles/css/common.css';
+
+.StackCardSkeleton {
+    background-color: $color-base-white-5;
+    border-radius: $radii-10;
+    height: 15.625rem;
+    margin: 0 $space-20 $space-20 0;
+    width: 20rem;
+}
+.StackCardSkeleton .StackCard__content {
+    height: 5.813rem;
+}

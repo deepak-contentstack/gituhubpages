@@ -1,0 +1,8 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M49 19L24 34L49 49L74 34L49 19Z" fill="#EDF1F7"/>
+<path d="M24 59L49 74L74 59M24 46.5L49 61.5L74 46.5M24 34L49 19L74 34L49 49L24 34Z" stroke="#EDF1F7" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="60.25" cy="65.25" r="16.25" fill="white"/>
+<circle cx="60.25" cy="65.25" r="11.25" stroke="#EDF1F7" stroke-width="5"/>
+<path d="M55.25 55.1694C51.5457 57.0103 49 60.8329 49 65.25C49 69.6672 51.5457 73.4898 55.25 75.3306V72.75C55.25 71.5 54 69 51.5 67.75C49.5 66.75 49.8333 64.8334 50.25 64L54 60.25C55 59.25 55.25 56.4463 55.25 55.1694Z" fill="#EDF1F7" stroke="#EDF1F7" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M71.5001 65.2498C71.5001 61.9179 70.0517 58.9243 67.7501 56.8644C66.9168 57.1595 65.0001 57.9998 64.0001 58.9998C62.7501 60.2498 60.2501 63.9998 61.5001 65.2498C62.7501 66.4998 65.2501 65.2498 66.5001 66.4998C67.7501 67.7498 69.0001 68.2706 67.7501 73.6352C70.0517 71.5752 71.5001 68.5817 71.5001 65.2498Z" fill="#EDF1F7" stroke="#EDF1F7" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Types render Primary Button 1`] = `
+<button
+  aria-label="aria-button"
+  className="Button Button--primary"
+  data-test-id="cs-button"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  <div
+    className="flex-center"
+  >
+    <div
+      className="flex-v-center"
+      style={
+        Object {
+          "visibility": "visible",
+        }
+      }
+    />
+  </div>
+</button>
+`;
+
+exports[`Only Icon It should render a button with only icon 1`] = `
+<button
+  aria-label="aria-button"
+  className="Button Button--primary Button--icon"
+  data-test-id="cs-button"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  <div
+    className="flex-center"
+  >
+    <div
+      className="flex-v-center"
+      style={
+        Object {
+          "visibility": "visible",
+        }
+      }
+    />
+  </div>
+</button>
+`;
+
+exports[`With Button Style Properties It should render a button with custom style 1`] = `
+<button
+  aria-label="aria-button"
+  className="Button Button--secondary"
+  data-test-id="cs-button"
+  disabled={false}
+  onClick={[Function]}
+  style={
+    Object {
+      "color": "red",
+    }
+  }
+  type="button"
+>
+  <div
+    className="flex-center"
+  >
+    <div
+      className="flex-v-center"
+      style={
+        Object {
+          "visibility": "visible",
+        }
+      }
+    >
+      <span>
+        Custom Style
+      </span>
+    </div>
+  </div>
+</button>
+`;
+
+exports[`With Loader It should render a button which is in loading state with different loading color 1`] = `
+<button
+  aria-label="aria-button"
+  className="Button Button--secondary Button--state-loading"
+  data-test-id="cs-button"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  <div
+    className="flex-center"
+  >
+    <div
+      className="Button__loader"
+    />
+    <div
+      className="flex-v-center"
+      style={
+        Object {
+          "visibility": "hidden",
+        }
+      }
+    >
+      Loading
+    </div>
+  </div>
+</button>
+`;
+
+exports[`With icons It should render a button with icon on left side 1`] = `
+<button
+  aria-label="aria-button"
+  className="Button Button--secondary Button--icon-alignment-left"
+  data-test-id="cs-button"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  <div
+    className="flex-center"
+  >
+    <div
+      className="flex-v-center"
+      style={
+        Object {
+          "visibility": "visible",
+        }
+      }
+    >
+      With Icon
+    </div>
+  </div>
+</button>
+`;
+
+exports[`With icons It should render a button with icon on right side 1`] = `
+<button
+  aria-label="aria-button"
+  className="Button Button--secondary Button--icon-alignment-right"
+  data-test-id="cs-button"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  <div
+    className="flex-center"
+  >
+    <div
+      className="flex-right"
+      style={
+        Object {
+          "visibility": "visible",
+        }
+      }
+    >
+      With Icon
+    </div>
+  </div>
+</button>
+`;

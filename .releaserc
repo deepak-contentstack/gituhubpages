@@ -1,0 +1,27 @@
+{
+  "repositoryUrl": "git@github.com:contentstack/venus-components.git",
+  "branches": ["master"],
+  "plugins": [
+    "@semantic-release/npm",
+    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/github", {
+        "successComment": false,
+        "failComment": false,
+        "failTitle": false,
+        "labels": false,
+        "releasedLabels": false
+      }
+    ],
+    [
+      "@semantic-release/commit-analyzer", {
+        "releaseRules": [
+          {
+            "message": "*",
+            "release": "patch"
+          },
+        ]
+      }
+    ]
+  ],
+}

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test cases for EmptyState Component renders the Component 1`] = `
+<div
+  className="EmptyStateWrapper flex-center"
+  data-test-id="cs-empty-state"
+>
+  <div
+    className="EmptyState EmptyState--primary"
+    style={Object {}}
+  >
+    <div
+      className="EmptyState__title "
+    >
+      <span>
+        Mock Heading
+      </span>
+    </div>
+    <div
+      className="EmptyState__description"
+    >
+      <span>
+        Mock Description
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test cases for EmptyState Component renders the No Image 1`] = `
+<div
+  className="EmptyStateWrapper flex-center"
+  data-test-id="cs-empty-state"
+>
+  <div
+    className="EmptyState EmptyState--primary"
+    style={Object {}}
+  >
+    <div
+      className="EmptyState__title "
+    >
+      No Image
+    </div>
+    <div
+      className="EmptyState__description"
+    >
+      This error will have no image
+    </div>
+  </div>
+</div>
+`;

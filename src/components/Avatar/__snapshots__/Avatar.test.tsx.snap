@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar  Component render Single Avatar  1`] = `
+Array [
+  <div
+    className="tippy-wrapper"
+    data-test-id="cs-tooltip"
+  >
+    <div
+      className="Avatar Avatar--single"
+      style={
+        Object {
+          "backgroundColor": "#99D8CE",
+        }
+      }
+    >
+      <span
+        className="Avatar__link "
+      >
+        BT
+      </span>
+    </div>
+  </div>,
+  "Branko Toshin",
+]
+`;
+
+exports[`Avatar  Component render Single Avatar with Tolltip  1`] = `
+Array [
+  <div
+    className="tippy-wrapper"
+    data-test-id="cs-tooltip"
+  >
+    <div
+      className="tippy-wrapper"
+      data-test-id="cs-tooltip"
+    >
+      <div
+        className="Avatar Avatar--single"
+        style={
+          Object {
+            "backgroundColor": "#99D8CE",
+          }
+        }
+      >
+        <span
+          className="Avatar__link "
+        >
+          <img
+            alt="Branko Toshin"
+            className="Avatar__image"
+            src="https://via.placeholder.com/32x32/ff4988/ff4988?text=1"
+          />
+        </span>
+      </div>
+    </div>
+    Branko Toshin
+  </div>,
+  <div
+    className="Avatar__info"
+  >
+    <h6
+      className="Avatar__name"
+    >
+      Branko Toshin
+    </h6>
+    <span
+      className="Avatar__email"
+    >
+      developer@upwork.com
+    </span>
+  </div>,
+]
+`;
+
+exports[`Avatar  Component render Single Avatar with image 1`] = `
+Array [
+  <div
+    className="tippy-wrapper"
+    data-test-id="cs-tooltip"
+  >
+    <div
+      className="Avatar Avatar--single"
+      style={
+        Object {
+          "backgroundColor": "#99D8CE",
+        }
+      }
+    >
+      <span
+        className="Avatar__link "
+      >
+        <img
+          alt="Branko Toshin"
+          className="Avatar__image"
+          src="https://via.placeholder.com/32x32/ff4988/ff4988?text=1"
+        />
+      </span>
+    </div>
+  </div>,
+  "Branko Toshin",
+]
+`;

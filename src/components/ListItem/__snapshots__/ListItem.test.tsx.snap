@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List Item Component renders the component with className prop 1`] = `
+<ListItem
+  className="custom-class"
+  content="list item content"
+  description="list item description"
+  onClick={[Function]}
+  style={
+    Object {
+      "color": "#000",
+    }
+  }
+  testId="data-testId"
+>
+  <div
+    className="pl-10 pb-10 pt-10 pr-10 ListItem__Wrapper custom-class"
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "#000",
+      }
+    }
+  >
+    <div
+      className="flex ListItem"
+    >
+      <Paragraph
+        className="font-size-large ListItem__Content"
+        tagName="p"
+        testId="cs-paragraph-tag"
+        text="list item content"
+      >
+        <p
+          className="font-size-large ListItem__Content"
+          data-test-id="cs-paragraph-tag"
+        >
+          list item content
+        </p>
+      </Paragraph>
+    </div>
+  </div>
+</ListItem>
+`;
+
+exports[`List Item Component renders the component with content prop 1`] = `
+<ListItem
+  content="list item content"
+  testId="data-testId"
+>
+  <div
+    className="pl-10 pb-10 pt-10 pr-10 ListItem__Wrapper"
+    onClick={[Function]}
+  >
+    <div
+      className="flex ListItem"
+    >
+      <Paragraph
+        className="font-size-large ListItem__Content"
+        tagName="p"
+        testId="cs-paragraph-tag"
+        text="list item content"
+      >
+        <p
+          className="font-size-large ListItem__Content"
+          data-test-id="cs-paragraph-tag"
+        >
+          list item content
+        </p>
+      </Paragraph>
+    </div>
+  </div>
+</ListItem>
+`;
+
+exports[`List Item Component renders the component with description prop 1`] = `
+<ListItem
+  content="list item content"
+  description="list item description"
+  testId="data-testId"
+>
+  <div
+    className="pl-10 pb-10 pt-10 pr-10 ListItem__Wrapper"
+    onClick={[Function]}
+  >
+    <div
+      className="flex ListItem"
+    >
+      <Paragraph
+        className="font-size-large ListItem__Content"
+        tagName="p"
+        testId="cs-paragraph-tag"
+        text="list item content"
+      >
+        <p
+          className="font-size-large ListItem__Content"
+          data-test-id="cs-paragraph-tag"
+        >
+          list item content
+        </p>
+      </Paragraph>
+    </div>
+  </div>
+</ListItem>
+`;
+
+exports[`List Item Component renders the component with icon prop 1`] = `
+<ListItem
+  className="custom-class"
+  content="list item content"
+  description="list item description"
+  onClick={[Function]}
+  style={
+    Object {
+      "color": "#000",
+    }
+  }
+  testId="data-testId"
+>
+  <div
+    className="pl-10 pb-10 pt-10 pr-10 ListItem__Wrapper custom-class"
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "#000",
+      }
+    }
+  >
+    <div
+      className="flex ListItem"
+    >
+      <Paragraph
+        className="font-size-large ListItem__Content"
+        tagName="p"
+        testId="cs-paragraph-tag"
+        text="list item content"
+      >
+        <p
+          className="font-size-large ListItem__Content"
+          data-test-id="cs-paragraph-tag"
+        >
+          list item content
+        </p>
+      </Paragraph>
+    </div>
+  </div>
+</ListItem>
+`;
+
+exports[`List Item Component renders the component with onClick prop 1`] = `
+<ListItem
+  content="list item content"
+  description="list item description"
+  onClick={[Function]}
+  testId="data-testId"
+>
+  <div
+    className="pl-10 pb-10 pt-10 pr-10 ListItem__Wrapper"
+    onClick={[Function]}
+  >
+    <div
+      className="flex ListItem"
+    >
+      <Paragraph
+        className="font-size-large ListItem__Content"
+        tagName="p"
+        testId="cs-paragraph-tag"
+        text="list item content"
+      >
+        <p
+          className="font-size-large ListItem__Content"
+          data-test-id="cs-paragraph-tag"
+        >
+          list item content
+        </p>
+      </Paragraph>
+    </div>
+  </div>
+</ListItem>
+`;
+
+exports[`List Item Component renders the component with style prop 1`] = `
+<ListItem
+  content="list item content"
+  description="list item description"
+  onClick={[Function]}
+  style={
+    Object {
+      "color": "#000",
+    }
+  }
+  testId="data-testId"
+>
+  <div
+    className="pl-10 pb-10 pt-10 pr-10 ListItem__Wrapper"
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "#000",
+      }
+    }
+  >
+    <div
+      className="flex ListItem"
+    >
+      <Paragraph
+        className="font-size-large ListItem__Content"
+        tagName="p"
+        testId="cs-paragraph-tag"
+        text="list item content"
+      >
+        <p
+          className="font-size-large ListItem__Content"
+          data-test-id="cs-paragraph-tag"
+        >
+          list item content
+        </p>
+      </Paragraph>
+    </div>
+  </div>
+</ListItem>
+`;

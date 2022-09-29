@@ -1,0 +1,16 @@
+{
+    "mq": {
+        "large": {
+            "value": "only screen and (min-width: 64.0625rem)",
+            "comment": "Large form factor: devices larger than tablet"
+        },
+        "medium": {
+            "value": "only screen and (min-width: 48rem)",
+            "comment": "Medium form factor: devices larger than phone"
+        },
+        "small": {
+            "value": "only screen and (max-width: 47.9375rem)",
+            "comment": "Small form factor: devices smaller than tablet"
+        }
+    }
+}

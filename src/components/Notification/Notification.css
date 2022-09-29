@@ -1,0 +1,209 @@
+@import '../../../tokens/variables.scss';
+@import '../../../tokens/tokens.css';
+@import '../../static/styles/css/typography.css';
+@import '../../static/styles/css/variable.css';
+@import '../../static/styles/css/common.css';
+
+.Toastify {
+    &__toast-container {
+        box-sizing: border-box;
+        color: $color-font-white;
+        max-width: 38rem;
+        padding: $space-4;
+        position: fixed;
+        width: auto;
+        z-index: 9999;
+
+        &--top-right {
+            right: $space-30;
+            top: $space-10;
+        }
+        &--top-left {
+            left: $space-20;
+            top: $space-10;
+        }
+        &--top-center {
+            left: 50%;
+            top: $space-25;
+            transform: translateX(-50%);
+        }
+        &--bottom-right {
+            bottom: $space-20;
+            right: $space-30;
+        }
+        &--bottom-left {
+            bottom: $space-30;
+            left: $space-30;
+        }
+        &--bottom-center {
+            bottom: $space-25;
+            left: 50%;
+            transform: translateX(-50%);   
+        }
+
+        .Toastify__toast {
+            border-radius: $radii-10;
+            box-sizing: border-box;
+            cursor: default;
+            display: flex;
+            font-family: $font-family-primary;
+            margin-bottom: 0;
+            max-height: auto;
+            min-height: $space-40;
+            overflow: hidden;
+            padding: calc(var(--space-10) + 1px) 1.25rem;
+
+            &--info {
+                background-color: $color-brand-info-base;
+            }
+            &--warning {
+                background-color: $color-brand-attention-base;
+            }
+            &--error {
+                background-color: $color-brand-warning-base;
+            }
+            &--success {
+                background-color: $color-brand-success-base;
+            }
+            &--default {
+                background-color: $color-brand-primary-base;
+                &.custom{
+                    background: $color-brand-white-base;
+                    border-radius: $radii-10;
+                    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
+                    padding: $space-12 $space-20;
+                    .Toastify__toast-body{
+                        .Toastify__toast-wrapper{
+                             .Toastify__toast-displayMessage {
+                                color: $color-font-base;
+                                font-size: $size-font-medium;
+                                font-weight: $font-weight-regular;
+                                letter-spacing: .01em;
+                                line-height: $space-16;
+                            }
+                        }
+                    }
+                   
+                }
+            }
+            &.dark {
+                background-color: $color-brand-black-base;
+            }
+            &.shortcut {
+                background-color: $color-brand-secondary-base;
+                border-radius: $radii-8;
+                box-shadow: 0 24px 24px rgba(0, 0, 0, 0.02), 0 16px 24px rgba(0, 0, 0, 0.06), 0 24px 16px rgba(0, 0, 0, 0.04);
+
+                .Toastify__toast-displayMessage {
+                    font-size: $size-font-large!important;
+                    font-weight: $font-weight-regular!important;
+                }
+            }
+
+            .Toastify__toast-body {
+        
+                .Toastify__toast-wrapper {
+                    align-items: center;
+                    display: flex;
+
+                    .Toastify__toast-displayIcon {
+                        height: $space-18;
+                        margin-right: $space-10;
+                    
+                        >svg {
+                            height: $space-18;
+                            width: $space-18;
+                        }
+                    }
+
+                    .Toastify__toast-displayMessage {
+                        color: $color-font-white;
+                        font-size: $size-font-medium;
+                        font-weight: $font-weight-bold;
+                        letter-spacing: 0.01em;
+                        line-height: $space-16;
+
+                        .Key-Shortcut {
+                            align-items: center;
+                            background-color: $color-brand-secondary-lighter;
+                            border-radius: 0.313rem;
+                            color:$color-font-base;
+                            display: flex;
+                            font-size: $size-font-small;
+                            font-weight: $font-weight-semi-bold;
+                            height: $space-16;
+                            justify-content: center;
+                            margin: 0 $space-5;
+                            text-transform: capitalize;
+                            width: $space-16;
+                            >svg {
+                                height: $space-10;
+                                overflow: visible;
+                            }
+                        }
+
+                        .error-details {
+                            margin-top: $space-10;
+
+                            p {
+                                color: $color-font-white;
+                            }
+                        }
+                    }
+                }
+                .Toastify__toast-actions{
+                    float:right;
+                    margin-bottom: $space-6;
+                    margin-top: $space-10;
+                }
+            }
+            .Toastify__close-button {
+                align-self: center;
+                background: transparent;
+                border: none;
+                color: $color-font-white;
+                cursor: pointer;
+                height: $space-15;
+                margin-left: $space-20;
+                margin-right: -0.438rem;
+                opacity: $opacity-1;
+                outline: none;
+                padding: 0;
+                transition: 0.3s ease;
+                width: $space-15;
+
+                >svg {
+                    height: $space-15;
+                    width: $space-15;
+                }
+            }
+        }
+    }
+}
+
+/* Custom animation */
+/* @keyframes zoomIn {
+    from {
+        opacity: $opacity-0;
+    }
+    50% {
+        opacity: $opacity-1;
+    }
+}
+.zoomIn {
+    animation-name: zoomIn;
+}
+@keyframes zoomOut {
+    from {
+        opacity: $opacity-1;
+    }
+    50% {
+        opacity: $opacity-0;
+    }
+    to {
+        opacity: $opacity-0;
+    }
+}
+.zoomOut {
+    animation-name: zoomOut;
+} */

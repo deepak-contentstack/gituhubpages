@@ -1,0 +1,93 @@
+@import '../../../../tokens/variables.scss';
+
+.Link{
+    display: inline-block;
+    font-size: $size-font-large;
+    &:hover{
+        &>a{
+            color: $color-font-link;
+        }
+        .Link__dashed,.Link__solid {
+            border-bottom: 1px solid rgba(108,92,231,.8);
+      }
+    }
+    &.ExternalLink{
+        &:hover{
+            a{
+                color: $color-font-link;
+                >svg{
+                    path{
+                        fill: $color-font-link;
+                    }
+                }
+            }
+        }
+    }
+    a {
+        text-decoration: none;
+        .Link__dashed{
+            border-bottom: 1px dashed rgba(108,92,231,.8);
+        }
+        .Link__solid{
+            border-bottom: none;
+        }
+    }
+    &--link {
+        a {
+            color: $color-font-link;
+        }
+            &:hover{
+        a{
+            color: #5D50BF;
+        }
+            }
+    }
+    &--white {
+        a {
+            color: $color-font-white;
+        }
+        &:hover {
+            a {
+                color: $color-font-white!important;
+            }
+        }
+    }
+    &--black {
+        a {
+            color: $color-font-black;
+        }
+    }
+    &--base {
+        a {
+            color: $color-font-base;
+        }
+    }
+    &--tiny{
+        font-size: $size-font-tiny;
+    }
+
+    &--small{
+        font-size: $size-font-small;
+    }
+
+    &--medium{
+        font-size: $size-font-medium;
+    }
+
+    &--large{
+        font-size: $size-font-large;
+    }
+
+    &--bold{
+        font-weight: $font-weight-bold;
+    }
+
+    &--semi-bold{
+        font-weight: $font-weight-semi-bold;
+    }
+
+    &--regular{
+        font-weight: $font-weight-regular;
+    }
+}
+

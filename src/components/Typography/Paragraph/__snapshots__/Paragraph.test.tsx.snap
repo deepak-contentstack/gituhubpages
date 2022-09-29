@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paragraph Paragraph tag 1`] = `
+<p
+  data-test-id="cs-paragraph-tag"
+>
+  Paragraph
+</p>
+`;

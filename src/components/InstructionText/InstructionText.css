@@ -1,0 +1,13 @@
+@import '../../../tokens/variables.scss';
+@import '../../../tokens/tokens.css';
+@import '../../static/styles/css/typography.css';
+@import '../../static/styles/css/common.css';
+
+.InstructionText {
+    color: $color-font-secondary;
+    display: block;
+    font-family: $font-family-primary;
+    font-size: $size-font-small;
+    line-height: $line-height-default;
+    margin: calc(var(--space-2) + 1px) 0 0 $space-10;
+}

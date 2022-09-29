@@ -1,0 +1,13 @@
+{
+    "line-height": {
+        "default": {
+            "value": "1.5"
+        },
+        "condensed": {
+            "value": "1.25"
+        },
+        "reset": {
+            "value": "1"
+        }
+    }
+}

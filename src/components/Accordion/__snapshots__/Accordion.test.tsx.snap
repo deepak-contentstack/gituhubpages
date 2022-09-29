@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion Component Default Component renders the div component 1`] = `
+<div
+  className="Accordion"
+  data-test-id="cs-accordion"
+>
+  <div
+    className="Accordion__heading "
+    onClick={[Function]}
+  >
+    <div
+      className="flex"
+    >
+      <div
+        className="Accordion__heading__title  Accordion__heading__title__ellipsis"
+        onClick={[Function]}
+      >
+        Default View
+      </div>
+    </div>
+    
+    <div
+      className="Accordion__heading__toggle"
+    />
+    <div
+      className="flex-v-center flex-grow-1"
+    >
+      <span
+        className="Accordion__heading__line"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,41 @@
+@import '../../../../tokens/variables.scss';
+@import '../../../../tokens/tokens.css';
+@import '../../../static/styles/css/typography.css';
+@import '../../../static/styles/css/variable.css';
+@import '../../../static/styles/css/common.css';
+
+h1,h2,h3,h4,h5,h6{
+    font-family: $font-family-primary;
+    color: $color-font-black;
+    margin: 0;
+}
+
+h1{
+    font-size: $size-font-6-xl;
+    font-weight: $font-weight-bold;
+}
+
+h2{
+    font-size: $size-font-5-xl;
+    font-weight: $font-weight-bold;
+}
+
+h3{
+    font-size: $size-font-4-xl;
+    font-weight: $font-weight-extra-bold;
+}
+
+h4{
+    font-size: $size-font-3-xl;
+    font-weight: $font-weight-extra-bold;
+}
+
+h5{
+    font-size: $size-font-2-xl;
+    font-weight: $font-weight-extra-bold;
+}
+
+h6{
+    font-size: $size-font-xl;
+    font-weight: $font-weight-extra-bold;
+}

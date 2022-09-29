@@ -1,0 +1,165 @@
+
+// Do not edit directly
+// Generated on Mon, 22 Jun 2020 11:49:03 GMT
+
+
+/**
+ * @tokens Colors
+ * @presenter Color
+ */
+ 
+$color-base-purple-5: #6c5ce7;
+$color-base-gray-5: #EDF1F7;
+$color-base-gray-10: #A9B6CB;
+$color-base-gray-15: #647696;
+$color-base-gray-20: #475161;
+$color-base-green-5: #36b37e;
+$color-base-orange-5: #ff5630;
+$color-base-blue-5: #00b8d9;
+$color-base-yellow-5: #ffab00;
+$color-base-black-5: #222222;
+$color-base-white-5: #ffffff;
+$color-base-white-10: #F7F9FC;
+$color-base-white-15: #f5f5f5;
+$color-border-light: #A9B6CB;
+$color-border-base: #647696;
+$color-border-dark: #475161;
+$color-border-focus: #EDF1F7;
+$color-border-warning: #ff5630;
+$color-border-success: #36b37e;
+$color-brand-primary-base: #6c5ce7;
+$color-brand-secondary-lighter: #EDF1F7;
+$color-brand-secondary-light: #A9B6CB;
+$color-brand-secondary-base: #647696;
+$color-brand-secondary-dark: #475161;
+$color-brand-success-base: #36b37e;
+$color-brand-warning-base: #ff5630;
+$color-brand-attention-base: #ffab00;
+$color-brand-info-base: #00b8d9;
+$color-brand-white-base: #ffffff;
+$color-brand-white-dark: #F7F9FC;
+$color-brand-white-darker: #f5f5f5;
+$color-font-base: #475161;
+$color-font-secondary: #647696;
+$color-font-tertiary: #A9B6CB;
+$color-font-quaternary: #EDF1F7;
+$color-font-link: #6c5ce7;
+$color-font-active: #647696;
+$color-font-warning: #ff5630;
+$color-font-success: #36b37e;
+$color-font-info: #00b8d9;
+$color-font-disabled: #647696;
+$color-semantic-primary: #6c5ce7;
+$color-semantic-success: #36b37e;
+$color-semantic-warning: #ff5630;
+$color-semantic-attention: #ffab00;
+$color-semantic-info: #00b8d9;
+$color-gray-dark: #475161;
+$color-gray-medium: #647696;
+$color-gray-light: #A9B6CB;
+$color-gray-lightest: #EDF1F7;
+$color-white-primary: #ffffff;
+$color-white-secondary: #F7F9FC;
+$color-white-tertiary: #f5f5f5;
+$color-black: #222222;
+
+ /**
+ * @tokens Border Radius
+ * @presenter BorderRadius
+ */
+
+ $radii-2: 2px;
+ $radii-4: 4px;
+ $radii-6: 6px;
+ $radii-8: 8px;
+ $radii-10: 10px;
+ $radii-50: 50%;
+
+ /**
+ * @tokens Box-shadow
+ * @presenter BoxShadow
+ */
+
+$box-shadow-default: 0 1px 3px rgba(0, 0, 0, 0.08);
+$box-shadow-heavy: 0 2px 3px rgba(0, 0, 0, 0.35);
+
+ /**
+ * @tokens Line height
+ * @presenter LineHeight
+ */
+
+$line-height-defualt: 1.5;
+$line-height-condensed: 1.25;
+$line-height-reset: 1;
+
+/**
+ * @tokens Media Query
+ * @presenter MediaQuery
+ */
+
+$mq-large: only screen and (min-width: 64.0625rem); // Large form factor: devices larger than tablet
+$mq-medium: only screen and (min-width: 48rem); // Medium form factor: devices larger than phone
+$mq-small: only screen and (max-width: 47.9375rem); // Small form factor: devices smaller than tablet
+
+ /**
+ * @tokens Opacity
+ * @presenter Opacity
+ */
+
+ $opacity-0: 0;
+ $opacity-1: 1;
+ $opacity-2: 0.2;
+ $opacity-5: 0.5;
+ $opacity-8: 0.8;
+
+ /**
+ * @tokens Spacing
+ * @presenter Spacing
+ */
+
+ $space-5: 0.125rem; // 2px
+ $space-10: 0.25rem; // 4px
+ $space-15: 0.5rem; // 8px
+ $space-20: 1.5rem; // 24px
+ $space-25: 1rem; // 16px
+ $space-30: 0.75rem; // 12px
+ $space-35: 2rem; // 32px
+ $space-40: 3rem; // 48px
+
+/**
+ * @tokens Font Size
+ * @presenter FontSize
+ */
+
+ $font-base: 16;
+ $size-font-tiny: 0.6875rem; // 11px
+ $size-font-small: 0.75rem; // 12px[Title 2]
+ $size-font-medium: 0.8125rem; // 13px
+ $size-font-large: 0.875rem; // 14px[Title 1]
+ $size-font-xl: 1rem; // 16px[H6]
+ $size-font-2-xl: 1.125rem; // 18px[H5]
+ $size-font-3-xl: 1.375rem; // 22px[H4]
+ $size-font-4-xl: 1.875rem; // 30px[H3]
+ $size-font-5-xl: 2.25rem; // 36px[H2]
+ $size-font-6-xl: 2.625rem; // 42px[H1]
+
+/**
+ * @tokens Font Weight
+ * @presenter FontWeight
+ */
+
+ $font-weight-regular: 400;
+ $font-weight-medium: 500;
+ $font-weight-semi-bold: 600;
+ $font-weight-bold: 700;
+ $font-weight-extra-bold: 800;
+ $font-family-primary: inter-regular;
+
+/**
+ * @tokens Z-index
+ * @presenter Z-index
+ */
+
+$z-index-default: 0;
+$z-index-negative: -1;
+$z-index-deepdive: -99999;

@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link render External Link component 1`] = `
+<div
+  className="Link ExternalLink Link--regular Link--large Link--base"
+  data-test-id="cs-link"
+  onClick={[Function]}
+  target="_blank"
+>
+  <a
+    className="flex-v-center"
+    href="/"
+    target="_blank"
+  >
+    <span
+      className=""
+    >
+      Learn More
+    </span>
+  </a>
+</div>
+`;
+
+exports[`Link render additional style 1`] = `
+<div
+  className="Link Link--regular Link--large Link--base"
+  data-test-id="cs-link"
+  onClick={[Function]}
+  style={
+    Object {
+      "color": "red",
+    }
+  }
+  target="_blank"
+>
+  <a
+    className="flex-v-center"
+    target="_blank"
+  >
+    <span
+      className=""
+    >
+      Learn more
+    </span>
+  </a>
+</div>
+`;
+
+exports[`Link render default Link component 1`] = `
+<div
+  className="Link Link--regular Link--large Link--base"
+  data-test-id="cs-link"
+  onClick={[Function]}
+  target="_blank"
+>
+  <a
+    className="flex-v-center"
+    href="/"
+    target="_blank"
+  >
+    <span
+      className=""
+    >
+      Learn More
+    </span>
+  </a>
+</div>
+`;
+
+exports[`Link render iconName 1`] = `
+<div
+  className="Link ExternalLink Link--regular Link--large Link--base"
+  data-test-id="cs-link"
+  onClick={[Function]}
+  target="_blank"
+>
+  <a
+    className="flex-v-center"
+    href="/"
+    target="_blank"
+  >
+    <span
+      className=""
+    >
+      Learn More
+    </span>
+  </a>
+</div>
+`;
+
+exports[`Link render target _blank 1`] = `
+<div
+  className="Link Link--regular Link--large Link--base"
+  data-test-id="cs-link"
+  onClick={[Function]}
+  target="_blank"
+>
+  <a
+    className="flex-v-center"
+    href="/"
+    target="_blank"
+  >
+    <span
+      className=""
+    >
+      Learn More
+    </span>
+  </a>
+</div>
+`;
+
+exports[`Link render target _parent 1`] = `
+<div
+  className="Link Link--regular Link--large Link--base"
+  data-test-id="cs-link"
+  onClick={[Function]}
+  target="_parent"
+>
+  <a
+    className="flex-v-center"
+    href="/"
+    target="_parent"
+  >
+    <span
+      className=""
+    >
+      Learn More
+    </span>
+  </a>
+</div>
+`;
+
+exports[`Link render target _self 1`] = `
+<div
+  className="Link Link--regular Link--large Link--base"
+  data-test-id="cs-link"
+  onClick={[Function]}
+  target="_self"
+>
+  <a
+    className="flex-v-center"
+    href="/"
+    target="_self"
+  >
+    <span
+      className=""
+    >
+      Learn More
+    </span>
+  </a>
+</div>
+`;
+
+exports[`Link render target _top 1`] = `
+<div
+  className="Link Link--regular Link--large Link--base"
+  data-test-id="cs-link"
+  onClick={[Function]}
+  target="_top"
+>
+  <a
+    className="flex-v-center"
+    href="/"
+    target="_top"
+  >
+    <span
+      className=""
+    >
+      Learn More
+    </span>
+  </a>
+</div>
+`;
+
+exports[`Link render underline false 1`] = `
+<div
+  className="Link Link--regular Link--large Link--base"
+  data-test-id="cs-link"
+  onClick={[Function]}
+  target="_blank"
+>
+  <a
+    className="flex-v-center"
+    href="/"
+    target="_blank"
+  >
+    <span
+      className=""
+    >
+      Learn More
+    </span>
+  </a>
+</div>
+`;
+
+exports[`Link render underline true 1`] = `
+<div
+  className="Link Link--regular Link--large Link--base"
+  data-test-id="cs-link"
+  onClick={[Function]}
+  target="_blank"
+>
+  <a
+    className="flex-v-center"
+    href="/"
+    target="_blank"
+  >
+    <span
+      className="Link__dashed"
+    >
+      Learn More
+    </span>
+  </a>
+</div>
+`;

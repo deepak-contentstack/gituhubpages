@@ -1,0 +1,30 @@
+{
+    "color": {
+        "border": {
+            "lighter": {
+                "value": "{color.base.gray.30.value}"
+            },
+            "light": {
+                "value": "{color.base.gray.10.value}"
+            },
+            "base": {
+                "value": "{color.base.gray.15.value}"
+            },
+            "dark": {
+                "value": "{color.base.gray.20.value}"
+            },
+            "link": {
+                "value": "{color.base.purple.5.value}"
+            },
+            "focus": {
+                "value": "{color.base.gray.5.value}"
+            },
+            "warning": {
+                "value": "{color.base.orange.5.value}"
+            },
+            "success": {
+                "value": "{color.base.green.5.value}"
+            }
+        }
+    }
+}

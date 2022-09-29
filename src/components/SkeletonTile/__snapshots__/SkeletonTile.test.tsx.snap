@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SkeletonTile render SkelttonTile Component 1`] = `
+<svg
+  className="SkeletonTile__svg"
+  data-test-id="cs-skeleton-tile"
+  fill="#EDF1F7"
+  height={22}
+  width={200}
+>
+  <g>
+    <rect
+      height={15}
+      rx={7}
+      width={200}
+      x={0}
+      y={0}
+    />
+  </g>
+</svg>
+`;

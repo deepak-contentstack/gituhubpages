@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumb render default Breadcrumb component 1`] = `
+<div
+  className="Breadcrumb"
+  data-test-id="cs-breadcrumb"
+>
+  <span
+    className="Breadcrumb__link flex-v-center"
+    onClick={[Function]}
+  >
+    <span
+      className="Breadcrumb__link--text"
+      style={
+        Object {
+          "maxWidth": 500,
+        }
+      }
+    >
+      Breadcrumb 1
+    </span>
+    <span
+      className="Breadcrumb__link--slash"
+    >
+      /
+    </span>
+  </span>
+  <span
+    className="Breadcrumb__link flex-v-center"
+    onClick={[Function]}
+  >
+    <span
+      className="Breadcrumb__link--text"
+      style={
+        Object {
+          "maxWidth": 500,
+        }
+      }
+    >
+      Breadcrumb 2
+    </span>
+    <span
+      className="Breadcrumb__link--slash"
+    >
+      /
+    </span>
+  </span>
+  <span
+    className="Breadcrumb__link--text"
+    style={
+      Object {
+        "maxWidth": 500,
+      }
+    }
+  >
+    Breadcrumb 3
+  </span>
+</div>
+`;

@@ -1,0 +1,46 @@
+{
+    "size": {
+        "font": {
+            "tiny": {
+                "value": "0.6875rem",
+                "comment": "11px"
+            },
+            "small": {
+                "value": "0.75rem",
+                "comment": "12px[Title 2]"
+            },
+            "medium": {
+                "value": " 0.8125rem",
+                "comment": "13px"
+            },
+            "large": {
+                "value": "0.875rem",
+                "comment": "14px[Title 1]"
+            },
+            "xl": {
+                "value": "1rem",
+                "comment": "16px[H6]"
+            },
+            "2xl": {
+                "value": "1.125rem",
+                "comment": "18px[H5]"
+            },
+            "3xl": {
+                "value": "1.375rem",
+                "comment": "22px[H4]"
+            },
+            "4xl": {
+                "value": "1.875rem",
+                "comment": "30px[H3]"
+            },
+            "5xl": {
+                "value": "2.25rem",
+                "comment": "36px[H2]"
+            },
+            "6xl": {
+                "value": "2.625rem",
+                "comment": "42px[H1]"
+            }
+        }
+    }
+}

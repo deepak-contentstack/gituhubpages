@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageHeader render PageHeader with actions 1`] = `
+<div
+  className="PageHeader"
+>
+  <div
+    className="PageTitleWrapper"
+  >
+    <div
+      className="PageTitle"
+    >
+      Page header title
+    </div>
+  </div>
+  <div
+    className="actions flex-v-center"
+  >
+    page label
+  </div>
+</div>
+`;
+
+exports[`PageHeader render PageHeader with custom component in header 1`] = `
+<div
+  className="PageHeader"
+>
+  <div
+    className="PageTitleWrapper"
+  >
+    <div
+      className="PageTitle"
+    >
+      Page header title
+    </div>
+    <div />
+  </div>
+  <div
+    className="actions flex-v-center"
+  >
+    <button
+      aria-label="aria-button"
+      className="Button Button--primary"
+      data-test-id="cs-button"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      <div
+        className="flex-center"
+      >
+        <div
+          className="flex-v-center"
+          style={
+            Object {
+              "visibility": "visible",
+            }
+          }
+        >
+          Cancel
+        </div>
+      </div>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`PageHeader render PageHeader with multiple actions 1`] = `
+<div
+  className="PageHeader"
+>
+  <div
+    className="PageTitleWrapper"
+  >
+    <div
+      className="PageTitle"
+    >
+      Page header title
+    </div>
+  </div>
+  <div
+    className="actions flex-v-center"
+  >
+    <button
+      aria-label="aria-button"
+      className="Button Button--muted"
+      data-test-id="cs-button"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      <div
+        className="flex-center"
+      >
+        <div
+          className="flex-v-center"
+          style={
+            Object {
+              "visibility": "visible",
+            }
+          }
+        >
+          Cancel
+        </div>
+      </div>
+    </button>
+    <button
+      aria-label="aria-button"
+      className="Button Button--success"
+      data-test-id="cs-button"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      <div
+        className="flex-center"
+      >
+        <div
+          className="flex-v-center"
+          style={
+            Object {
+              "visibility": "visible",
+            }
+          }
+        >
+          Save
+        </div>
+      </div>
+    </button>
+    <button
+      aria-label="aria-button"
+      className="Button Button--primary"
+      data-test-id="cs-button"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      <div
+        className="flex-center"
+      >
+        <div
+          className="flex-v-center"
+          style={
+            Object {
+              "visibility": "visible",
+            }
+          }
+        >
+          Button
+        </div>
+      </div>
+    </button>
+  </div>
+</div>
+`;

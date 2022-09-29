@@ -1,0 +1,293 @@
+@import '../../../tokens/variables.scss';
+@import '../../../tokens/tokens.css';
+
+.AvatarList {
+	align-items: center;
+	display: flex;
+	justify-content: flex-start;
+
+	&__expand-button {
+		align-items: center;
+		background-color: $color-base-gray-5;
+		border: $space-2 solid $color-base-white-5;
+		border-radius: $radii-50;
+		color: $color-base-gray-15;
+		display: flex;
+		font-size: $size-font-tiny;
+		font-weight: $font-weight-semi-bold;
+		height: 1.65rem;
+		justify-content: center;
+		padding: 0;
+		width: 1.65rem;
+
+		&--tiny-text {
+			font-size: 0.5rem;
+		}
+	}
+
+	&__expand-link {
+		color: $color-base-purple-5;
+		font-size: $size-font-small;
+		font-weight: $font-weight-bold;
+		margin-left: $space-5;
+		text-decoration: none;
+
+		&--dark {
+			color: $color-base-gray-15;
+		}
+	}
+
+	& > :nth-child(2) {
+		transform: translateX(-5px);
+	}
+
+	& > :nth-child(3) {
+		transform: translateX(-10px);
+	}
+
+	& > :nth-child(4) {
+		transform: translateX(-15px);
+	}
+
+	& > :nth-child(5) {
+		transform: translateX(-20px);
+	}
+
+	& > :nth-child(6) {
+		transform: translateX(-25px);
+	}
+
+	& > :nth-child(7) {
+		transform: translateX(-30px);
+	}
+
+	& > :nth-child(8) {
+		transform: translateX(-35px);
+	}
+
+	& > :nth-child(9) {
+		transform: translateX(-40px);
+	}
+
+	& > :nth-child(10) {
+		transform: translateX(-45px);
+	}
+}
+
+.Avatar {
+	align-items: center;
+	background-color: $color-base-gray-5;
+	border: $space-2 solid $color-base-white-5;
+	border-radius: $radii-50;
+	display: flex;
+	font-family: $font-family-primary;
+	font-size: 0.625rem;
+	font-weight: $font-weight-extra-bold;
+	justify-content: center;
+	position: relative;
+
+	&--large{
+		height: 2rem;
+		width: 2rem;
+	}
+
+	&--small{
+		height: 1.625rem;
+		width: 1.625rem;
+		.Avatar__image {
+			height: $space-24;
+			width: $space-24;
+		}
+		.Avatar__active{
+			border: 1px solid $color-base-white-5;
+			bottom: 0;
+			height: $space-4;
+			right: 0;
+			width: $space-4;
+		}
+	}
+
+	&__link {
+		align-items: center;
+		color: $color-base-white-5;
+		cursor: pointer;
+		display: flex;
+		height: 100%;
+		justify-content: center;
+		overflow: hidden;
+		text-decoration: none;
+		text-transform: uppercase;
+		transition: background-color 300ms ease, color 300ms ease;
+		width: 100%;
+		&__grey{
+			color:#647696;
+		}
+    &__white{
+      color: #ffffff;
+    }
+	}
+
+	&__active{
+		background: $color-brand-success-base;
+		border: $space-2 solid $color-base-white-5;
+		border-radius: $radii-50;
+		bottom: -$space-2;
+		box-sizing: content-box;
+		height: $space-8;
+		position: absolute;
+		right: -$space-2;
+		width: $space-8;
+	}
+
+	&--single {
+		border: none;
+		font-size: $size-font-tiny;
+		height: 2rem;
+		width: 2rem;
+
+		.Avatar__image {
+			filter: grayscale(1);
+			transition: filter 300ms ease;
+
+			&:hover {
+				filter: grayscale(0);
+			}
+		}
+	}
+
+	&__image {
+		border-radius: $radii-50;
+		height: auto;
+		left: 50%;
+		min-width: 100%;
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		width: auto;
+	}
+
+	&__name {
+		color: $color-base-gray-20;
+		font-size: $size-font-small;
+		font-weight: $font-weight-bold;
+		margin: 0 0 $space-10 0;
+	}
+
+	&__email {
+		color: $color-base-gray-20;
+		display: block;
+		font-size: $size-font-small;
+		font-weight: $font-weight-medium;
+	}
+
+	&__profile {
+		align-items: center;
+		display: flex;
+		justify-content: flex-start;
+
+		&:hover {
+			.Avatar__name {
+				color: $color-base-purple-5;
+			}
+		}
+
+		.Avatar__image {
+			border: $space-2 solid $color-base-white-5;
+			border-radius: $radii-50;
+			height: auto;
+			margin-right: $space-10;
+			min-width: 0;
+			position: static;
+			transform: none;
+			width: 1.625rem;
+		}
+
+		.Avatar__name {
+			color: $color-base-black-5;
+			font-size: $size-font-medium;
+			font-weight: $font-weight-regular;
+			margin: 0;
+		}
+	}
+
+	&__dropdown {
+		z-index: 999;
+		.Dropdown__menu__list__item {
+			padding: $space-4 $space-10;
+		}
+	}
+}
+
+/* Pop up CSS */
+.popUp-body__header {
+    align-items: center;
+    display: flex;
+    font-size: $size-font-small;
+    font-weight:$font-weight-bold;
+    margin-bottom: $space-6;
+
+    & > div {
+		background: $color-brand-white-darker;
+		border-radius: $radii-4;
+		color: $color-font-black;
+		font-size: $space-10;
+		font-weight: $font-weight-semi-bold;
+		height: calc(var(--space-16) + 1px);
+		margin-left: $space-10;
+		min-width: calc(var(--space-16) + 1px);
+		padding: $space-4;
+		width: auto;
+    }
+}
+.popUp-body__container {
+	overflow: hidden !important;
+	padding: 0 !important;
+
+	.popUp-body__search {
+		display: flex;
+		& + ul {
+			max-height: 21.25rem;
+			overflow: auto;
+		}
+	}
+	.Search {
+		&.Search--medium {
+			width: 100%;
+			.Search__search-icon {
+				left : $space-18;
+			}
+		}
+		&__cancel-icon {
+			right: $space-20;
+		}
+		.Search__input {
+			border-radius: 0;
+			height: 2.938rem;
+			padding-left: $space-35;
+			padding-right: $space-40;
+		}
+		& > svg {
+			height: $space-14;
+			left: $space-16;
+			width: $space-14;
+		}
+	}
+	ul {
+		padding: $space-18 1.063rem;
+		li {
+			font-size: $size-font-medium;
+			font-weight: $font-weight-medium;
+			letter-spacing: -6e-05em;
+			line-height: $space-16;
+			padding-bottom:$space-40;
+			/* Commenting below as we need to display case sensitive values */
+			/* text-transform: capitalize; */
+			&:first-child {
+				padding-top: 0;
+			}
+			&:last-child {
+				padding-bottom: 0;
+			}
+		}		
+	}
+}

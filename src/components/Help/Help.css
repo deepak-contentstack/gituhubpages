@@ -1,0 +1,27 @@
+@import '../../../tokens/variables.scss';
+@import '../../../tokens/tokens.css';
+@import '../../static/styles/css/typography.css';
+@import '../../static/styles/css/variable.css';
+@import '../../static/styles/css/common.css';
+
+.Help{
+      cursor: pointer;
+      vertical-align: middle;
+
+      &:hover {
+        path {
+            fill: $color-base-gray-20;
+        }
+    }
+}
+
+.Help-wrapper {
+    background: $color-brand-white-darker;
+    border-radius: $radii-4;
+    padding: $space-20;
+    width: 15.63rem;
+}
+.tippy-box-dark{
+    max-width:18.75rem;
+    white-space: normal;
+}

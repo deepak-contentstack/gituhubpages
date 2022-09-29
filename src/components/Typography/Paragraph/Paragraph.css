@@ -1,0 +1,12 @@
+@import '../../../../tokens/variables.scss';
+@import '../../../../tokens/tokens.css';
+@import '../../../static/styles/css/typography.css';
+@import '../../../static/styles/css/variable.css';
+@import '../../../static/styles/css/common.css';
+
+p {
+    color: $color-font-base;
+    font-family: $font-family-primary;
+    font-size: $size-font-medium;
+    font-weight: $font-weight-regular;
+}

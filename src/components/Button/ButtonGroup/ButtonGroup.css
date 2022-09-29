@@ -1,0 +1,17 @@
+@import '../../../../tokens/variables.scss';
+@import '../../../../tokens/tokens.css';
+@import '../../../static/styles/css/typography.css';
+@import '../../../static/styles/css/variable.css';
+@import '../../../static/styles/css/common.css';
+
+.Button__group {
+    button {
+        margin-right: $space-20;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+.ui-component .button-group {
+  	margin: 0 calc(var(--space-2) + 1px);
+}

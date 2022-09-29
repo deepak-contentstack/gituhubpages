@@ -1,0 +1,13 @@
+{
+    "z-index": {
+        "default": {
+            "value": "0"
+        },
+        "negative": {
+            "value": "-1"
+        },
+        "deepdive": {
+            "value": "-99999"
+        }
+    }
+}

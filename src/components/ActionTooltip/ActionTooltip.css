@@ -1,0 +1,115 @@
+@import '../../../tokens/variables.scss';
+@import '../../../tokens/tokens.css';
+@import '../../static/styles/css/typography.css';
+@import '../../static/styles/css/common.css';
+
+.ActionTooltip {
+    align-items: center;
+    display: flex;
+    font-family: $font-family-primary;
+    position: relative;
+    width: 100%;
+    
+    &:focus{
+        background : $color-brand-white-darker;
+    }
+
+    &__actions {
+        align-items: center;
+        background-color: $color-base-white-5;
+        border-radius: $radii-6;
+        box-shadow: 0 $space-8 $space-20 rgba(34, 34, 34, 0.1);
+        /* display: none; */
+        height: $space-32;
+        position: absolute;
+        right: $space-20;
+        width: auto;
+        li {
+            border-radius: 6px;
+            cursor: pointer;
+            &:focus{
+                box-shadow: 0 0 0 1px #6c5ce7,0 0 0 4px #bbb4f4;
+                position: relative;
+                z-index: 1;
+                .wrappper-svg{
+                    background: $color-base-gray-5;
+                    &> svg {
+                        path {
+                            fill: $color-base-black-5;
+                        }
+                    }
+                }
+            }
+            .wrappper-svg{
+                align-items: center;
+                border-radius: $radii-6;
+                cursor: pointer;
+                display: flex;
+                font-weight: $font-weight-extra-bold;
+                height: $space-32;
+                justify-content: center;
+                width: $space-32;
+                &:hover{
+                    background: $color-base-gray-5;
+                    &> svg {
+                        path {
+                            fill: $color-base-black-5;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &:hover {
+        &.ActionTooltip--primary {
+            background-color: $color-brand-white-darker;
+        }
+    }
+
+    &.ActionTooltip--primary {
+        font-size: $size-font-medium;
+        font-weight: $font-weight-medium;
+    }
+}
+
+.ActionTooltip-row {
+    height:  3.75rem;
+}
+
+.ActionTooltip:hover  .ActionTooltip__actions {
+    display: flex;
+}
+
+.ActionTooltip--Select {
+    &:hover {
+        .Select {
+            &:not(:hover,:focus) {
+                .Select__control {
+                    background-color: $color-border-lighter;
+                    svg {
+                        path[stroke], circle[stroke], rect[stroke] {
+                            stroke: $color-base-gray-40;
+                        }
+                        path[fill], circle[fill], rect[fill] {
+                            fill: $color-base-gray-40;
+                        }
+                        path + path {
+                            fill: $color-brand-white-base !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ActionTooltip--TextInput {
+    &:hover {
+        .TextInput__input {
+            &:not(:hover, :focus) {
+                background-color: $color-border-lighter;
+            }
+        }
+    }
+}

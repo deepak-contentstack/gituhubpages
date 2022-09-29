@@ -1,0 +1,169 @@
+@import '../../../tokens/variables.scss';
+@import '../../../tokens/tokens.css';
+@import '../../static/styles/css/common.css';
+
+.Accordion {
+    font-family: $font-family-primary;
+
+    &--backgroundColor {
+        .Accordion {
+            &__heading {
+                padding-left: $space-10;
+                &:hover {
+                    background-color: $color-brand-white-light;
+                }
+            }
+            &__open {
+                margin-left: $space-10;
+            }
+            &__data {
+                .Accordion {
+                    &__open {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    &__actions {
+        align-items: center;
+        background: $color-brand-white-base;
+        border-radius: $radii-6;
+        box-shadow: 0 $space-8 $space-20 rgba(34, 34, 34, 0.1);
+        display: flex;
+        height: $space-28;
+        margin-right: $space-10;
+        visibility: hidden;
+        .actions_list_item {
+            align-items: center;
+            cursor: pointer;
+            display: flex;
+            height: 100%;
+            justify-content: center;
+            width: $space-28;
+            &:hover {
+                background-color: $color-brand-secondary-lighter;
+                border-radius: $radii-6;
+                svg {    
+                    path {
+                        fill: $color-base-gray-20;
+                    }
+                }       
+            }    
+        }
+    }
+
+    &__heading {
+        align-items: center;
+        border-radius: $radii-4;
+        cursor: pointer;
+        display: flex;
+        height: $space-40;
+        
+        & > .flex {
+            max-width: 70%;
+        }
+        &.Accordion__heading-disabled{
+            cursor: not-allowed;
+        }
+
+    &__title {
+      color: $color-font-secondary;
+      font-size: $size-font-small;
+      font-style: normal;
+      font-weight: $font-weight-semi-bold;
+      letter-spacing: -0.0025em;
+      line-height: $space-14;
+      &__ellipsis {
+        @include text-wrapper;
+      }
+    }
+
+        &:hover {
+            .Accordion__heading__line,.Accordion__actions {
+                visibility: visible;
+            }
+            .Accordion__heading__toggle {
+                background: $color-base-gray-10;
+                svg {
+                    path {
+                        fill: $color-base-white-5;
+                    }
+                }
+            }
+            .Accordion__heading__toggle-disabled {
+                cursor: not-allowed;
+            }
+            .Accordion__heading__title {
+                color: $color-font-black;
+            }
+        }
+
+        &__field-count {
+            align-items: center;
+            background: $color-font-quaternary;
+            border-radius: $radii-4;
+            color: $color-font-base;
+            display: flex;
+            font-size: $size-font-small;
+            font-weight: $font-weight-bold;
+            height: $space-20;
+            justify-content: center;
+            margin-left: $space-10;
+            min-width: $space-22;
+            padding: $space-2 0.188rem;
+        }
+
+        &__toggle, &__toggle-disabled {
+            align-items: center;
+            border-radius: $radii-50;
+            display: flex;
+            height: $space-28;
+            justify-content: center;
+            margin-left: $space-10;
+            min-width: $space-28;
+        }
+
+        &__errorMsg {
+            color: $color-base-orange-5;
+            font-size: $size-font-small;
+            font-weight: $font-weight-bold;
+            margin-left: $space-10;
+        }
+
+        &__line {
+            flex-grow: 1;
+            margin: 0 $space-10;
+            visibility: hidden;
+        }
+    }
+
+    &__collapsed {
+        border-radius: $radii-8;
+        height: 0;
+        overflow: hidden;
+    }
+
+    &__open {
+        height: auto;
+    }
+
+    &__data {
+        border-left: 1px solid rgba(113, 128, 150, 0.3);
+        font-size: $size-font-small;
+        padding-top: $space-5;
+
+        .Accordion {
+            margin-left: 0;
+            &__data {
+                border-left: 1px solid rgba(113, 128, 150, 0.3);
+                margin-left: $space-10;
+            }
+
+            &__heading {
+                padding-left: $space-10;
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+@import '../../../tokens/variables.scss';
+@import '../../../tokens/tokens.css';
+@import '../../static/styles/css/typography.css';
+@import '../../static/styles/css/common.css';
+
+.Breadcrumb {
+    color: $color-font-base;
+    font-size: $size-font-small;
+    font-style: normal;
+    font-weight: $font-weight-medium;
+    letter-spacing: -6e-5em;
+    display:flex;
+    align-items: center;
+    div {
+        display: inline;
+    }
+    &__link{
+        display:inline-block;
+        color: $color-font-base;
+        cursor: pointer;
+        font-weight: $font-weight-regular;
+        height: $space-15 ;
+        
+        &--text{
+            display:inline-block;
+            height: $space-15;
+            line-height: $space-15;
+            @include text-wrapper;
+        }
+        &--slash{
+            height:$space-15;
+            display: inline-block;
+        }
+    }
+    a {
+        color: $color-font-tertiary;
+        text-decoration: none;
+    }
+}

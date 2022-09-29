@@ -1,0 +1,34 @@
+@import '../../../tokens/variables.scss';
+@import '../../../tokens/tokens.css';
+@import '../../static/styles/css/typography.css';
+@import '../../static/styles/css/variable.css';
+@import '../../static/styles/css/common.css';
+
+.PageTitle {
+    color: $color-brand-secondary-dark;
+    font-family: $font-family-primary;
+    font-size: 1.28rem;
+    font-weight: $font-weight-extra-bold;
+    line-height: 1.6875rem;
+    
+    &.PageTitle--editable{
+        line-height: $space-30;
+        padding: 0 $space-5;
+        &:hover{
+            background-color: $color-brand-secondary-lighter;
+            cursor: pointer;
+        }
+    }
+
+    .PageTitle--ct_name {
+        border: 1px solid $color-border-light;
+        border-radius: $radii-4;
+        color: $color-font-secondary;
+        font-size: $size-font-tiny;
+        font-weight: $font-weight-medium;
+        letter-spacing: -6e-05em;
+        margin-left: $space-8;
+        padding: $space-4;
+        text-decoration: none;
+    }
+}

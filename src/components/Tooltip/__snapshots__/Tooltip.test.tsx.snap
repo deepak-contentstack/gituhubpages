@@ -1,0 +1,370 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip Render MenuIcon type Tooltip 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div
+      data-tippy-root=""
+      id="tippy-8"
+      style="pointer-events: none; z-index: 9999; visibility: visible; position: absolute; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 10px);"
+    >
+      <div
+        class="tippy-box tippy-box-light tippy-box-light--primary"
+        data-animation="fade"
+        data-escaped=""
+        data-placement="bottom"
+        data-reference-hidden=""
+        data-state="visible"
+        role="tooltip"
+        style="max-width: 350px; transition-duration: 300ms;"
+        tabindex="-1"
+      >
+        <div
+          class="tippy-content"
+          data-state="visible"
+          style="transition-duration: 300ms;"
+        >
+          <div>
+            <div
+              class="flex-v-center"
+            >
+              <div>
+                <div
+                  class="flex"
+                >
+                  Plain text to show additional information.
+                  <div
+                    class="tippy-arrow-light tippy-arrow-light-top"
+                  />
+                </div>
+              </div>
+              <div
+                class="closeContainer flex-v-center flex-h-center"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="tippy-arrow"
+          style="position: absolute; left: 0px; transform: translate(3px, 0px);"
+        />
+      </div>
+    </div>
+    <div>
+      <div>
+        <div
+          class="TooltipWrapper"
+        >
+          <div
+            aria-expanded="false"
+            class="tippy-wrapper"
+            data-test-id="cs-tooltip"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="TooltipWrapper"
+      >
+        <div
+          aria-expanded="false"
+          class="tippy-wrapper"
+          data-test-id="cs-tooltip"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Tooltip Render Tooltip with Close 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="tippy-wrapper pb-10"
+          data-test-id="cs-tooltip"
+        />
+      </div>
+    </div>
+    <div
+      data-tippy-root=""
+      id="tippy-7"
+      style="pointer-events: none; z-index: 9999; visibility: visible; transition: none; position: absolute; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 10px);"
+    >
+      <div
+        class="tippy-box tippy-box-light tippy-box-light--primary"
+        data-animation="fade"
+        data-escaped=""
+        data-placement="bottom"
+        data-reference-hidden=""
+        data-state="hidden"
+        role="tooltip"
+        style="max-width: 350px; transition-duration: 0ms;"
+        tabindex="-1"
+      >
+        <div
+          class="tippy-content"
+          data-state="hidden"
+          style="transition-duration: 0ms;"
+        >
+          <div>
+            <div
+              class="flex-v-center"
+            >
+              <div>
+                <div
+                  class="flex"
+                >
+                  Plain text to show additional information.
+                  <div
+                    class="tippy-arrow-light tippy-arrow-light-top"
+                  />
+                </div>
+              </div>
+              <div
+                class="closeContainer flex-v-center flex-h-center"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="tippy-arrow"
+          style="position: absolute; left: 0px; transform: translate(3px, 0px);"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="tippy-wrapper pb-10"
+        data-test-id="cs-tooltip"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Tooltip Render Tooltip with arrow 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="tippy-wrapper pb-10"
+          data-test-id="cs-tooltip"
+        />
+      </div>
+    </div>
+    <div
+      data-tippy-root=""
+      id="tippy-6"
+      style="pointer-events: none; z-index: 9999; visibility: visible; transition: none; position: absolute; left: 0px; top: 0px; margin: 0px; transform: translate(0px, 10px);"
+    >
+      <div
+        class="tippy-box tippy-box-light tippy-box-light--primary"
+        data-animation="fade"
+        data-escaped=""
+        data-placement="bottom"
+        data-reference-hidden=""
+        data-state="hidden"
+        role="tooltip"
+        style="max-width: 350px; transition-duration: 0ms;"
+        tabindex="-1"
+      >
+        <div
+          class="tippy-content"
+          data-state="hidden"
+          style="transition-duration: 0ms;"
+        >
+          <div>
+            <div
+              class="flex"
+            >
+              Plain text to show additional information.
+              <div
+                class="tippy-arrow-light tippy-arrow-light-top"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="tippy-arrow"
+          style="position: absolute; left: 0px; transform: translate(3px, 0px);"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="tippy-wrapper pb-10"
+        data-test-id="cs-tooltip"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Tooltip renders only the child element 1`] = `"<div class=\\"tippy-wrapper\\" data-test-id=\\"cs-tooltip\\"><button></button></div>"`;
