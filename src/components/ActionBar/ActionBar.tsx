@@ -21,6 +21,7 @@ const ActionBar = ({ children, onClick, hoverMessage, showOnHover = false, disab
         <div className={cn('ActionBar_bar', { hide: showOnHover }, (disabled && "ActionBar_bar_disabled"))}>
           <div className="ActionBar_sign">
             <Tooltip content={hoverMessage} position="top"></Tooltip>
+            This is test commit
           </div>
         </div>
       </div>
