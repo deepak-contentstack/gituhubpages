@@ -1,5 +1,4 @@
 node_modules/
-coverage/
 storybook-static/
 
 .DS_Store
