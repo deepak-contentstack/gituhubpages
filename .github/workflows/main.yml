@@ -1,28 +1,18 @@
-name: Build and publish test coverage
+name: 'coverage'
 on:
-  pull_request:
-    types: [opened, synchronize, reopened]
-
+    pull_request:
+        branches:
+            - master
+            - main
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@master
-    - name: Set up Node.js
-      uses: actions/setup-node@master
-      with:
-        node-version: 12.0.0
-    - name: Install NPM dependencies
-      run: npm install 
-    - name: Run Jest tests and generate coverage report
-      run: npm test
-    - name: Run Build
-      run: npm run build
-    - uses: ArtiomTr/jest-coverage-report-action@v2
-      id: coverage
-      with:
-          output: report-markdown
-    - uses: marocchino/sticky-pull-request-comment@v2
-      with:
-          message: ${{ steps.coverage.outputs.report }}
+    coverage:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - uses: ArtiomTr/jest-coverage-report-action@v2
+              id: coverage
+              with:
+                  output: report-markdown
+            - uses: marocchino/sticky-pull-request-comment@v2
+              with:
+                  message: ${{ steps.coverage.outputs.report }}
