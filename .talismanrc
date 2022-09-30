@@ -1,198 +1,588 @@
 fileignoreconfig:
-  - filename: build/components/ContentTypeField/helper.d.ts
-    checksum: a097646b8b0833635330b5ee79628675b5e37b5fac13cde5bde53f8b34a71883
-  - filename: build/components/JsonRTE/SuperChargedRte/components/Popover/index.d.ts
-    checksum: 9254dfac7a503b45a84f5eb8f64eb113cc41abb523b1b83165cde6a7648955ff
-  - filename: build/components/JsonRTE/SuperChargedRte/components/SlashCommand/SlashElement.d.ts
-    checksum: 28a6d2e995e4267fe467ecd5975857fad7d979eae71b7939bf27a279f29cbb91
-  - filename: build/components/JsonRTE/SuperChargedRte/elements/Element/code/withCustomKeydown.d.ts
-    checksum: e8a127308bf599862a02edb3b912fc1a0db1578054f82755bd06d87b648db591
-  - filename: build/components/JsonRTE/lib/rteSDK/actions.d.ts
-    checksum: 23822ec6d334af4ec2a9106afb62f81c4b243b7f75aedeb9b7dcad895b7b7c16
-  - filename: build/components/TextInput/TextInput.d.ts
-    checksum: 2d10031e4cc1d4e94412f05d56dea424bcb97df609df86f95a3d87795573ce9a
-  - filename: build/index.esm.js
-    checksum: 2d9b71e33408d6ef7ad5e02ec834a1da8f026465a41b574406f06a1d42b66b98
-  - filename: build/index.esm.js.map
-    checksum: 90cab5bcf806a962497fb72aa311386199715e85422a236c14df52e8508f43de
-  - filename: build/index.js
-    checksum: aeea92e656f18f687b8bf8cc8bf7f58f8adbaf3e27b6abc85f10b9df37028994
-  - filename: build/index.js.map
-    checksum: d62a20c21437c32a00432762b190f78990ab971bf38da28e5e859a17c2fdcd1d
-  - filename: build/main.css
-    checksum: b402c7c80a545f636af1ddc212c8cf8d05433e9dcb1a2e5698d5192ecf79eb25
-  - filename: package-lock.json
-    checksum: 2be1f3607034707d5e347392b6a15259d3d3802a213f8645a36ee462a5b6d936
-  - filename: report.20220105.112703.5902.0.001.json
-    checksum: 6fd5fcddf29fd08ffc69a43494cec6a4348d3d89ea11da27a684a0793721d5ed
-  - filename: report.20220110.121345.11325.0.001.json
-    checksum: b09902d6374dbcbf348519a8811c27224c9a2a08536c16359c9d74f757c0208d
-  - filename: src/components/AdvanceSearch/AdvanceSearch.tsx
-    checksum: 1c046e3fe3f15a023734989fbbafcc513856a2c60a898f262c82c78d4cb91313
-  - filename: src/components/AdvanceSearch/AdvanceSearchQuery.tsx
-    checksum: c66307257b32f59983a03ff86f51d725a79e86275c2fcaab87a573fb6f6e214d
-  - filename: src/components/AdvanceSearch/AutoComplete.tsx
-    checksum: d9b3a14655a7d4183e8ab696423baaf65bdc065c62bbbeb88abced28274474a8
-  - filename: src/components/BranchDisplay/BranchDisplay.stories.tsx
-    checksum: 254abb22d78da28fb07959d3efabd84060e4d7b567bb520830b273c7858bb06c
-  - filename: src/components/BranchDisplay/BranchDisplay.tsx
-    checksum: 006d5a69134795fd50a3779582e39195314230cabfa0b8263d95d9dc82d70414
-  - filename: src/components/ContentTypeField/ContentTypeField.tsx
-    checksum: bde5af85f8307d44780140f2394b06dc7c1b0cddb358ea71f95c6a84ecae5b55
-  - filename: src/components/ContentTypeField/ContentTypeFieldProperties/File.tsx
-    checksum: 20118d64448fc716ba3c2df543dacddda2729b3f24f91605f7d1edd0fc2bd00d
-  - filename: src/components/ContentTypeField/ContentTypeFieldProperties/SelectField.tsx
-    checksum: 025a7bbf70228cbebd6bf07fb5ba0c44f95d172a8e145d6e7c2e3d8a6f03a318
-  - filename: src/components/ContentTypeField/helper.tsx
-    checksum: 60accd8895aa97931c6e29e0212d618906a3a7bb034038a0d09a9c60e972d8b9
-  - filename: src/components/DragDrop/DragDropFile.stories.tsx
-    checksum: 9523fd8049b3a4acd178aa6e60a83cb8cb81c2e45d4fa5c740f7fcb9f0a0443a
-  - filename: src/components/DropDown/Dropdown.stories.tsx
-    checksum: 6da28cc5c5c6229f480202057a299fb8d6ae8b0d8f377dbcb8a6954fbdfbef7b
-  - filename: src/components/DropDown/Dropdown.test.tsx
-    checksum: 019440657c78e64104efe588cdf020d00e4d1bac15b21b02948c0db045a55e54
-  - filename: src/components/DropDown/Dropdown.tsx
-    checksum: a21d927e49dcc7a5796c6aa8e5271e611b4d1902ae7bfe602a4e5ca6fd4c1228
-  - filename: src/components/FieldLabel/FieldLabel.stories.tsx
-    checksum: 5343bc25b3b2cd4376324889ab542c8566669cd15275ec55aa94b862f193f976
-  - filename: src/components/Icon2/Icon.stories.tsx
-    checksum: 5b84b292a89b7bd4945766adcb2789286d5d7b3a7286f60ec4438f9533b02963
-  - filename: src/components/InlineForms/InlineForms.tsx
-    checksum: 4893037bd22ead1b89c4b8b2db522995576852d47bc883dfb7c6cbfb0a56c2a8
-  - filename: src/components/InstructionText/InstructionText.stories.tsx
-    checksum: f39723a17c5d4e57a026ca75953499aaecb86a2106eb3925587982d914386267
-  - filename: src/components/JsonRTE/RichTextEditor.stories.tsx
-    checksum: ec575c6563f9c9bd7f96a723e48e59cd9f58dcc053b9ec48d2adf639f438b9a4
-  - filename: src/components/JsonRTE/SuperChargedRte/components/Editor/index.tsx
-    checksum: 2423b5ef810574cc24e138dbcc02835a74b76392f1752f3ae1ca532e16f84d00
-  - filename: src/components/JsonRTE/SuperChargedRte/components/SlashCommand/SlashComponent.tsx
-    checksum: 78c729f92aabc5868fb53b38e311455f2a12f8fe2620a9566e24c1baaf7a0d77
-  - filename: src/components/JsonRTE/SuperChargedRte/components/SlashCommand/SlashElement.tsx
-    checksum: 7f91018c9b2a9c247128abddb291657e34e4dabebd78f8328051cd2ff5a040e1
-  - filename: src/components/JsonRTE/SuperChargedRte/components/Toolbar/ToolbarTest.tsx
-    checksum: a134b58e4b370249f8d0601837d49ccecb2545bfe9769da0ec2e9dbdc8253b79
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/align/alignCenter/index.tsx
-    checksum: b36e9979a959ba347e0d05c4907e17fc057767542fe1542e153bd70d3c7eedea
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/align/alignJustify/index.tsx
-    checksum: e34bcb66aff2e475ac1f3bdf819ff42f2b6fd97aaddcefe699f7324e2aecdda4
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/align/alignLeft/index.tsx
-    checksum: 762a9ea72368d58fea2b1895b976ac6701668ec509ea2b6de5a93bcf5be0386b
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/align/alignRight/index.tsx
-    checksum: ceddb79009c3168619e9970ac7ebb6e5a0ca55d85b5a6a0800c0e08d742a3fc8
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/blockquote/index.tsx
-    checksum: 592b4557a068f46f89e8e827f87d13e46b6c46f2a9896586d50b9295f8410ff9
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/code/index.tsx
-    checksum: 290c891dcd3da2ea8be900a2906a6f0907d99eb6294cdd86a2e100fc973a192a
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/code/withCustomKeydown.tsx
-    checksum: a90e39a2bb9c647ed8a514f758e6370d40e95cac57b9635139d42e5e81fc8d12
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/contentstack/reference/assetReference/Asset.tsx
-    checksum: c806f763ec0bb04a8e88fd2fee969cfb72240de2e3345e8011a818291fcaae6d
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/contentstack/reference/linkReference/index.tsx
-    checksum: 39b7d2b7d78378cbe5ce8892c503d81f3413700202683e6a6bb09f005f2d9459
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/contentstack/utils/requests/assets.tsx
-    checksum: fd11ccdeebc152fc92182ab47455a2f57e2aff39e6a30d6d8820aefb03bf04da
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/contentstack/utils/requests/contentTypes.tsx
-    checksum: 2acf74b66589913ff839e29b4e68ef15ead20763fc6ac235b4654c1db9973f88
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/contentstack/utils/requests/entries.tsx
-    checksum: b346d989b6c5b9d2962531be35b616a874f18e5d6e4e85ebb7f3b88676fcb2e4
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/contentstack/utils/requests/environments.ts
-    checksum: d3fb11f7f4cca2f1ae8d78446e971cec0a41b32d21433dfd36595f1ebdb05567
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/divider/DividerElement.tsx
-    checksum: fbbe0c3e18b6b8a32edc61c470f0b81429e97f0c7e9c07cc50027936cce2a19e
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/embeds/EmbededElement.tsx
-    checksum: 8b2a87ee13035cfa0b013eb04ffa73d8749a724cffa1085f58f4353cc923c81f
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/heading/H1/index.tsx
-    checksum: c2f6ece098f61aa36fe728c2f9644905e9192a7178b1bb288244471ecf32cf61
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/heading/H2/index.tsx
-    checksum: ba3c4dbda906d4794a939c76ed39e633af704a1db767ae398bb7f94e965b8202
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/heading/H3/index.tsx
-    checksum: 908a33ab0daa326d8ec7a9ea984da401d91761d0f08420bbd1ca9c171aabaac7
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/heading/H4/index.tsx
-    checksum: 75cf923c4fa44c16321d289c1491dcc725e493b07aed875b4aaac1d67c1f3455
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/heading/H5/index.tsx
-    checksum: 3fa94ab30c98109aec1f129640a659b58b7cd2d0ca0eb03c1740d4b5ef3acede
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/heading/H6/index.tsx
-    checksum: 17ed16c52a98cff7ab69711fe175039cb77f78f1fdd605d6d3c70c312431fc9a
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/list/OrderedList/index.tsx
-    checksum: 12ddb0d4c4e4309d22ad2b688767138bee5731af6c2d22da0ec861cd1fe801cf
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/list/UnorderedList/index.tsx
-    checksum: db68571e6da399e170f45240d389959eb06c044d020607c35e513c570b64ee03
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/Element/paragraph/index.tsx
-    checksum: 8ce8bedfc2dc61e0632459e6e607cc19075e0071218483d9406f4b3d0347f13c
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/utils/actions/handleDeleteOfElement.tsx
-    checksum: 51b7b801248427c204d0a07a5bc7ab2e6d659a9ea31be960eb0b416e6105f275
-  - filename: src/components/JsonRTE/SuperChargedRte/elements/utils/pasteHtml/deserializer/superchargedRTEDeserializer.tsx
-    checksum: a84985b0641786e56b1faa088f5fcacece5ca6f4c3dd9262b3ed73dced2a845b
-  - filename: src/components/JsonRTE/SuperChargedRte/utils/hooks/withRteExtension.ts
-    checksum: ea772def899c65f62fb60a2b36ced33c243e09e3bb18a3ddb8abe943a4d1051a
-  - filename: src/components/JsonRTE/SuperChargedRte/utils/rtePlugins/helper.ts
-    checksum: 08a6214369fb7c03c3940a63f94ea3401e018c30f14316c5a6862c05d6225638
-  - filename: src/components/JsonRTE/SuperChargedRte/utils/shortcuts/handleShortcut.tsx
-    checksum: 422f17546f7a7c1fce4e793d96cea9a2f855f7baf3357990b76e6e04153ba1a2
-  - filename: src/components/JsonRTE/lib/rteSDK/actions.ts
-    checksum: 2fa3092ced0ace09c65b68d871e9aa0ab6ef2b8ffd1f42fad19fe740a5dea11f
-  - filename: src/components/JsonRTE/lib/rteSDK/index.ts
-    checksum: c7786a01ed3202b9946a80e8526da227c9c6602672d147ed75376d2fa5116856
-  - filename: src/components/LeftNavigation/LeftNavigation.md
-    checksum: f7cc3f145535bf9565e76ae0ac00d58612b51ebd68778ed9e442e71108e25521
-  - filename: src/components/MarkdownEditor/MarkdownEditor.stories.tsx
-    checksum: 07b4457809a99dd2135ec5601ed9ee785954b31dfe4139b07d3a3b7528f5b35e
-  - filename: src/components/MiniScrollableTable/__snapshots__/MiniScrollableTable.test.tsx.snap
-    checksum: 98933879044ca2ff8bdd2c8bbbb33879db211acde8e504b1031adf65c1e3f2b9
-  - filename: src/components/Modal/Modal.md
-    checksum: 9b49014038879e3f36ae2b20f779722a35dcb82f4621132b85d53537678c572b
-  - filename: src/components/Modal/Modal.stories.tsx
-    checksum: 69c8521c779ec0714242156e945a6e0cc8ca5679a7ad5e7ffb41152194f3202d
-  - filename: src/components/MultiLevelDropdown/MultiLevelDropdown.stories.tsx
-    checksum: a9a2ae3efe5b23e1c2462c80fe19f7cee511ea35a1bcf0653a60afcc9dbe06fa
-  - filename: src/components/MultiLevelDropdown/MultiLevelDropdown.tsx
-    checksum: 8522d85294bd61d841dd8390238632cfe6d09b354ba4c75c108b2a95a95a6aa0
-  - filename: src/components/RichTextEditor/RichTextEditor.stories.tsx
-    checksum: 5d9a640274215c6354fd0268e7fd60d1b1e417dcb1571dea04c23fe847c6e835
-  - filename: src/components/RichTextEditor/SuperChargedRte/elements/Element/contentstack/reference/linkReference/index.tsx
-    checksum: 230a7b7ce9dce1718dfbcea5a7186fbbea38aeca9a27b6c625909ce4d08abaa5
-  - filename: src/components/RichTextEditor/SuperChargedRte/elements/Element/contentstack/utils/requests/contentTypes.tsx
-    checksum: c862155f6cef7a9f3aee75fa0cea3105d0525a5f74ff5c9ed6e1d402c0f6abe9
-  - filename: src/components/RichTextEditor/SuperChargedRte/elements/Element/contentstack/utils/requests/entries.tsx
-    checksum: 37db0bef22e831c9b462fcbe4a1a2d6863a139edd6eded2dda3ef0a5666062a6
-  - filename: src/components/RichTextEditor/SuperChargedRte/elements/Element/contentstack/utils/requests/environments.ts
-    checksum: a71acb9d7b072cfb13e8838049880f31bd0e1d81647cb812dc7d3c6e05de4379
-  - filename: src/components/RichTextEditor/SuperChargedRte/elements/Element/hyperlink/index.tsx
-    checksum: 79464b7041eec4c60fd81f24f02daf0aa721333650241b64fc4a9fdaca0a2387
-  - filename: src/components/RichTextEditor/SuperChargedRte/elements/utils/pasteHtml/deserializer/superchargedRTEDeserializer.tsx
-    checksum: 91298fb30bc4534142cd9ce558c362e50f5c53f51060d4e860d0a7273eeec595
-  - filename: src/components/RichTextEditor/SuperChargedRte/utils/serialize/toRedactor.tsx
-    checksum: f58d32c7f693a3471f3506003c34d92c03a75f18e1d3ba97af68ed7499239056
-  - filename: src/components/Select/Select.stories.tsx
-    checksum: fdf2477eee5a8f347d3eb0fe4ab93f97c9341ce94b34016f2b881eab5adb8394
-  - filename: src/components/Stepper/Stepper.tsx
-    checksum: aabd413f7dfe567ce72332f0b1a444bd928bd256cf5eeb6b07073ce6a0787b5b
-  - filename: src/components/Table/InfiniteScrollTable.test.tsx
-    checksum: 8ae0c60f9efbaa2c4df4fd5b3fe88ca4c0f6d7860bedb8ade9fc8449039417f8
-  - filename: src/components/Table/InfiniteScrollTable.tsx
-    checksum: 7f30e3f749946b5c828539e69f7822d3f6538246ec48eb0d43a968d29bf47052
-  - filename: src/components/Table/Table.stories.tsx
-    checksum: 5465613c1337a8122924b17bf40cc1a124b04eeab72455b623ceb5ead14baa70
-  - filename: src/components/Tabs/Tabs.tsx
-    checksum: c0c1783dacc59b872cbce6700d20974c0efbf2317acefb448d3908ff0d6f81f7
-  - filename: src/components/Tag/__snapshots__/TagEditor.test.tsx.snap
-    checksum: 7dbdb62b7bf4ba1f53b8b97cd0f5abad33ca63e9b75423884465b4174cf5519b
-  - filename: src/components/TextInput/TextInput.stories.tsx
-    checksum: e78143cc35fd44ae978979830a4817016b0832eaaf8cc97ccda2a38da1d4543d
-  - filename: src/components/TextInput/TextInput.test.tsx
-    checksum: 280f2af45623850437a9ee88d82487510c50e58f66d842aac9a56c8137e56b2a
-  - filename: src/components/TextInput/TextInput.tsx
-    checksum: b253dd9c33fb227005c78d7017517eb1c0820c3f88abd9808a18769a6eb02407
-  - filename: src/components/TextInput/__snapshots__/TextInput.test.tsx.snap
-    checksum: 569aee24d06b4026c7bce9c5e2f8290104ca3472846d7912f82f6fc55ab45378
-  - filename: src/components/Textarea/Textarea.stories.tsx
-    checksum: 49872a78ea2c896e3954ea7bf0f9a7e7c24a4e46627fd9d73776450bb5222777
-  - filename: src/components/Typography/Link/Link.stories.tsx
-    checksum: ea973c758b2331bc95f4114787f534bbad7e28306beaa20852ad0c868518033d
-  - filename: src/utils/hooks/depricatedPropsHoc.tsx
-    checksum: a4d12f7de6050b77c4821ed8c30c797c0c3d2d9698a6936ca7dd52a8b58426d6
-  - filename: yarn.lock
-    checksum: 5405611ec6800d083ece7e834c8f83846af4fd9cd0159036fb4c5df1f1f98ee5
-  - filename: src/components/ActionTooltip/ActionTooltip.test.tsx
-    checksum: 256bf53bc01f1d6e03053f39b96268de56322fe1df74e5ff134950eec6865998
-version: '1.0'
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/utils/requests/environments.ts.html
+  checksum: 51b54ec400b46d4bd8bc4d383d82be1dc842be25839067e571fda28ed94c5ac4
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/utils/requests/environments.ts.html
+  checksum: 716b5b26a9c18aac15120b1cb8774e59286982bf74281f105bf11eec07901b1f
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/image/request.tsx.html
+  checksum: daa1c0330c2981d01cb5460915a8c1d83356a9ab461c8063956659e17f32f5b7
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/image/request.tsx.html
+  checksum: ca79de6ad2b4e9ad1d759c39de6e07cb3d20dbd6fcb4c06393cd82971f8c2829
+- filename: coverage/lcov-report/RichTextEditor/TestCases.ts.html
+  checksum: d3f2110fbb6b8bf161e3872294ac4905616278d28e9270f0eb2fd990e2aba119
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/socialEmbeds/ErrorBoundary.tsx.html
+  checksum: 77e76d1af6d12761c2c2191a4aa3319ac637c596be6ce4baed84416e71def7f6
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/socialEmbeds/ErrorBoundary.tsx.html
+  checksum: a11ddbf3ba4e6324fcd3e5ec04db586b542622ae63fe1e20d4fe2296740cf69c
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/utils/testCases.ts.html
+  checksum: 8ce28ad4bc7a49fae250045809207dbb0cc2edbb5f1dcda5579d1dfdccb92ccb
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/image/placeholderImageSrc.tsx.html
+  checksum: 8803bebabc9534098a2f5029e8ab18049d1837551da36d54fd6744df914d6234
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/image/placeholderImageSrc.tsx.html
+  checksum: e39f9f6d741f40fb46bebfb8000e77ab3ce4f809b607589840df3f4501b153bb
+- filename: coverage/lcov-report/InfoContainter/InfoContainer.tsx.html
+  checksum: a587c0fb3f5391de5e9f4a222db7998f1dc184bd6bac82372820a1c0918567b2
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/utils/history/redo/index.tsx.html
+  checksum: 918c7dcd67b9b7cdd0d07906b46dd04098b1acc911d6419177eb61f6758dabe9
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/utils/history/undo/index.tsx.html
+  checksum: 8d16fef6855544dec26c349af0331d3cc1ca9565f466e36f31e28de06eb9efca
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/components/Toolbar/ToolbarTest.tsx.html
+  checksum: 9e032c20b9786527fda91337577145c8529ebcbf2923ec075dc4348b11ac297f
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/blockquote/index.tsx.html
+  checksum: 7a7a78b37d7b45a57532d58e426f946d964f2e4be19a7d953701f6c81f36ab71
+- filename: coverage/lcov-report/AdvanceSearch/Connector.tsx.html
+  checksum: 14f1cb25862cb6d6dfa9fdc87f6c2d225af168b04f0f8a3d2d44171d33c77db6
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/components/Toolbar/utils/generateDropdown.tsx.html
+  checksum: 8523554d034df678312492491db50d25004abb60a4f2a033c8ef7082e4f99ef5
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/code/withCustomKeydown.tsx.html
+  checksum: aefcfe09faee604e07501859409e1effa3b517597fd3b6dc1144dfd0a8e7a8b1
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/components/Toolbar/utils/generateToolbar.tsx.html
+  checksum: 5773a3b9755d8fbb797ed250d07bc54b7ed237fd9d537c7c89e5b87c2490f80e
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/components/Toolbar/Button/index.tsx.html
+  checksum: 4350ad560561d93a7403f87c1d9363bbc152e225bf1b41558b6bf7c4bd16e3f9
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/image/Modal/SelectImage/Breadcrumb/Breadcrumb.tsx.html
+  checksum: 14e54f3213fe6bcb0f80c3c70ece863bfde4cb561d3680ca049d145c23be4c4a
+- filename: coverage/lcov-report/ContentTypeField/ContentTypeFieldProperties/ExperienceContainer.tsx.html
+  checksum: bb4a264be53e93d8475c4e01d97b24a27696c0ec9d953d5100757501acdb668b
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/reference/utils/components/PublishStatusComponent.tsx.html
+  checksum: 8c9e4df32051738a92409fb294b47d10f1ab03bd93af230045c4ddf6e208f72d
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/components/Toolbar/toolbarComponents/utils.tsx.html
+  checksum: e73f9ed2f1365b6aefb4be78b272ada67529360ce1c73869d5fdc098c832a89c
+- filename: coverage/lcov-report/ActionTooltip/ActionTooltip.tsx.html
+  checksum: 40958e1c8df12c53b1e0f6734b1f4e40c1008b159b80a0172901908b43b82403
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/align/alignCenter/index.tsx.html
+  checksum: 06fab2e02b20aa808dfd3d17fe9abb671f8d844ce6f20f3e757fc82504952e30
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Leaf/inlineCode/index.tsx.html
+  checksum: 84b964424c71200d2588803e418831094d0c933a482025768eb75996b0866c8a
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/heading/H2/index.tsx.html
+  checksum: 6a95a5a1a50a1b8bf04cd72b70bc6126116869e1e63867f9044a2faddb0d59c7
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/align/alignJustify/index.tsx.html
+  checksum: 8a95f5ecfde14a74c4cbda1c734d17ef9d50baf51552ad26dbd4a113e3255cf2
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/reference/utils/components/ReferenceBody.tsx.html
+  checksum: b96572e5a8d9a4e268d709347d2f2e3c25b7b8fe348b6bcb85b91e38b08e32b2
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/align/alignLeft/index.tsx.html
+  checksum: 11b0fd8abeab747193285acd6a3958b26fd5c703747a8071cff7558a5333ced3
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/align/alignRight/index.tsx.html
+  checksum: 82636a5a9977a6db40d0a8a8979fba5d7ec18be61d275378a440cc00057e1147
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/align/alignRight/index.tsx.html
+  checksum: 56cc7dd26a42380b56e8932f85a4d2c88b6e8ca37227289fe5636bcfa5731f19
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/image/Modal/SelectImage/GridView/Loader.tsx.html
+  checksum: 44f6fa6ee63185c47223a676829f737d6633bc459880b8aeee587746d62f115c
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/list/OrderedList/index.tsx.html
+  checksum: e786ac056e735c693a02c3d3bc0552701fc33f1ea2708afa3f87786b57fc65b5
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Leaf/mark/index.tsx.html
+  checksum: 825e94d9a08dbb8d6d1e968beb947ca4f20ed265af8df761b1fafb149ca386fd
+- filename: coverage/lcov-report/SkeletonTile/SkeletonTile.tsx.html
+  checksum: dd6a8c45d5d74849d98ed53714d186bf53816959e8d6b15df33bf9a60eafaaa7
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/heading/H4/index.tsx.html
+  checksum: a5099ad7022d6b8975a3c55a1e8c2d88e8a9e957bcce461797ba7e42cf1e10d5
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Leaf/superscript/index.tsx.html
+  checksum: ad4ef94a31eca13e9f64ad274b14303de45895e09446983f6c783f4e49995484
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/utils/getRegistry.tsx.html
+  checksum: 69f09d0a6b74c131c8a6f90599604ed256eb45ef6b1d4b55ac0a1d13b82f2f86
+- filename: coverage/lcov-report/MarkdownEditor/src/elements/image/Modal/SelectImage/GridView/GridView.tsx.html
+  checksum: 8aee3935722e77b3bfef2e50bdde66a7ea87352d5de96cb783ded94621950fd8
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/align/alignCenter/index.tsx.html
+  checksum: beaca3fdda356c8a5c12f45a05c28ec5290abce068101035c223ceb963896498
+- filename: coverage/lcov-report/MarkdownEditor/src/elements/image/Modal/SelectImage/GridView/Loader.tsx.html
+  checksum: 494c9651d14f114c52c3263c5fa93b645cacf65e49a1543e55ce17e5b215565c
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/heading/H1/index.tsx.html
+  checksum: cbe4881e58a55c6d6aa785c98ef217c3be70fd76972dc6098cc2357c27e4f2a5
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/blockquote/index.tsx.html
+  checksum: aaf7a4b0cd0882c682429934f5e5d144a2b378da45a199e76119ddf898178dac
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/utils/requests/locales.ts.html
+  checksum: c3a04b6a6a516ce7a094c729160d2e12348ad4a029b88fc5b185804ab7baaafb
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Leaf/italic/index.tsx.html
+  checksum: 9f93f05a353bf452cb58c1d3427fa98e77a8cc4ac28e552aebb3b2d37bd7108a
+- filename: coverage/lcov-report/sorter.js
+  checksum: 81c7e389a85cac433c864b829ebe58568493aa961d32705fbf49c14402db62b9
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/list/UnorderedList/index.tsx.html
+  checksum: 871d06fa727d29f4519d2b16a951e8b9a27b1f8486f96eb5128b5845440ca8ce
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Leaf/removeFormatting/removeFormatting.tsx.html
+  checksum: 0c4b06d81b61fedbc06cbcc0fb6374cffa05f7e21fd31846b33a4e203315085e
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/divider/DividerElement.tsx.html
+  checksum: e78fae788a0275383b05ee8a1a74a3364af5b0c08395ff3d83f57376d3adad18
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/utils/hooks/keyDownHooks/index.tsx.html
+  checksum: e6ff3e5a04844ce12a5c1ea9864924ee43433e857fd4d014eb0155dd02b0f008
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/paragraph/index.tsx.html
+  checksum: d433e97031379039a7c256d4429e71086da58030ab53cf520c7f9bb0dc42d661
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/heading/H3/index.tsx.html
+  checksum: 0d3c7aa518e984e3b3effc7cfaa83d52344f41670d8f99f56ad243e0e53b9c57
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/list/OrderedList/index.tsx.html
+  checksum: 05d29f50e6658410df7e14c062ca56b2a73dfa1c0b43aaf48425c04841824fe4
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Leaf/underline/index.tsx.html
+  checksum: 44ef32210e6ef0bacb4565f709c669ffed44352b9844f61616927c17a2234165
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Leaf/subscript/index.tsx.html
+  checksum: bc16006468e291461a0130b508d72418963d437bdf95404a8cb0654c6b88d87a
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Leaf/italic/index.tsx.html
+  checksum: 6d171be906662f4509cb0037dda3618edf9edd1e6b155f047672fbe422fa0c92
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/reference/blockReference/index.tsx.html
+  checksum: 8e0bd1d54ab60cc3de39d59d8147ef8b517bc651cdca4228048ec3b702304990
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/utils/history/redo/index.tsx.html
+  checksum: ccd850d6ac4855ea5e5ce5c1e8ab1b01b77701a72e758435d099c2cd5375d135
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/code/index.tsx.html
+  checksum: 152a8b518003bbee835276f8cbd1afabc0fed8e14fd037cee2cd5212e2414294
+- filename: coverage/lcov-report/Truncate/Truncate.tsx.html
+  checksum: 88b11d28e5cf91bbc90aa075c775ac495aa5860cf03a7937682a6c541d2974f8
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/utils/index.tsx.html
+  checksum: efd33e1cdb90ac2b73a16b9f1c182bedf07e5c876d9edbed6f6498d8ba75b917
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/list/UnorderedList/index.tsx.html
+  checksum: aa6df76378a7662c851a430a0ab091506e059b133076190b0ea4419a3ce02c99
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/reference/utils/components/EmbedLinkBody.tsx.html
+  checksum: aaaeae96e56d956fb4c81bd8e833aca1811b08d5127e23fa5badbc908bfaae57
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/utils/requests/assets.tsx.html
+  checksum: 6d4a5b1fffb84b4b03939d479a45aee9a92696584c9d22a8f463361fe16afe23
+- filename: coverage/lcov-report/ProgressBar/ProgressBar.tsx.html
+  checksum: 7df261d5aaf07e0630cd7fc1c538d9d8db80cdc85948ef28d455a3114af6ee34
+- filename: coverage/lcov-report/PersonalizationQueryBuilder/match-node.tsx.html
+  checksum: 2ea8c50b0c6496bb4763ecf955f1a3428aec4115c7f58f0cff96eb6433fcf6db
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/utils/hooks/withRteExtension.ts.html
+  checksum: 01f15ebc5abc6e94125ee535eadc77f334fd1cd8d9afd863a7a1e2919366c1e8
+- filename: coverage/lcov-report/Tooltip/Tooltip.tsx.html
+  checksum: 6962845a2dfa0ccc7a17daefbe4e87a7b8dfe7c1d36f66ab5280143fa31aae29
+- filename: coverage/lcov-report/prettify.js
+  checksum: 7bcccf321d8300caad09fe4921871806b5b1c6ae3a9f36f3ebf3f40389c37e9c
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/reference/assetReference/EditCaptionAlt.tsx.html
+  checksum: 5fd09b15d3d559bfab29c2c6e976f9e0785e198de1238a58f0132188a2bb2239
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/code/index.html
+  checksum: 24b434450db6bbcf8947ea448b520bdf26839c11284ab485081ebad45a999896
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/reference/utils/utils.tsx.html
+  checksum: d94916ffa0849c2b80ea50adbb45cf979c3678f82f7aee26127629ad9b69f82d
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Leaf/removeFormatting/withRemoveFormatting.tsx.html
+  checksum: b28ce06e8f4abd321d16a6b261158b6aa60609ff245fc5bdac0d9cfbe67032c6
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/table/utils/insertColAfter.tsx.html
+  checksum: 71ded3a4caafa745baa21f52105285b3684e5078c4279b3b82d7850d0141e2ae
+- filename: coverage/lcov-report/base.css
+  checksum: d8f63ddcb2ba75c2c678d401d19519b14253caba279ba3b20ea318ac22809a84
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/heading/H3/index.tsx.html
+  checksum: 6e2d8e3b9d20e5650e12dfd37353d1bfb7c14e2d8b5de1de05eaab4b84f03c85
+- filename: coverage/lcov-report/Grid/Grid.tsx.html
+  checksum: 1b5379c19f64b2550afec7e4af0514379bf7e1e9a8a219da2cdb9c481728eed2
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Leaf/strikethrough/index.tsx.html
+  checksum: 26472b7f9b2f60cc2db469351e3debab9b0f1fb897455a23961187c49fe31f75
+- filename: coverage/lcov-report/Tag/RenderTag.tsx.html
+  checksum: 7bafc84107c8fd06f47bd8534c3a1354fa4aad24558d0734abbf4be357290fff
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/image/Modal/SelectImage/GridView/GridView.tsx.html
+  checksum: e8de7cef041e6e5ad7222b1dfe92b70817502008d374c0c5ec128c8785f15cbf
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/utils/rtePlugins/useRtePlugins.tsx.html
+  checksum: c5f28c6aee1c110181484fcff21afcba3c2233ea5edd3268bf9359cf1b175411
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/utils/pasteHtml/deserializer/superchargedRTEDeserializer.tsx.html
+  checksum: bbd8840501b41f8d8bf31daa0fdc2e76a407766c034171a490d0fd86f818f1d5
+- filename: coverage/lcov-report/FieldTypeSelector/FieldTypeSelector.tsx.html
+  checksum: 10787c7a9c680f4db1cf6cfb508b038f36b7afe68d2d0e6b8ae74ffc5b720518
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/reference/linkReference/index.tsx.html
+  checksum: 9989475b69516fc9edb312eafa2a3d33c1812ebf78b3a4b607aca08701465669
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/utils/editHtml/EditHtmlComponent.tsx.html
+  checksum: be2f45fa61eeff530824b187cf1e498f7cf6c14889aaea8cf333b05cdc5b2066
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/image/Modal/Upload/View/UploadThumbnailView.tsx.html
+  checksum: 53d40ddd1bc9cca521319de881c6c4ea10a590e7f4e9943c2f7e69db15cc26fe
+- filename: coverage/lcov-report/ContentTypeField/ContentTypeFieldProperties/Group.tsx.html
+  checksum: e1132ad57172e9c179aa6ebd7ef8bed78bf430609d5505e7003917185a94c2d4
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/utils/SearchBar/index.tsx.html
+  checksum: 97b200fd0d559204360b5b62da2ec5f6c3eecd7a9387d667c4fdd7cec143573c
+- filename: coverage/lcov-report/MarkdownEditor/src/handleShortCuts.tsx.html
+  checksum: 7918376b5fc8038ab805b4d29e321767671f61ea63a7e1025eb90f851d1f3f87
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/reference/blockReference/index.tsx.html
+  checksum: d5476d48ae9c68bbe4f82243525a5de0b47069aa8e70f5a37884d7e0e53e03ed
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/utils/attributesProvider/elementAttrs.tsx.html
+  checksum: 893fc58b7b625c3054ae7b8835af435a23947dba6669e43262833139984f3107
+- filename: coverage/lcov-report/TreeView/CustomDecorators.tsx.html
+  checksum: 4cc0624962f0c6b185f950217eb4de2871f907f0fcae78372723a3b2c6bfb627
+- filename: coverage/lcov-report/MarkdownEditor/src/Toolbar.tsx.html
+  checksum: 9dc6aa943a88afdf9454ed8995e0257f105e67d0155e221e71023198597fbb49
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/image/index.tsx.html
+  checksum: c83921f38b45187b2a0bfbea619207cc16f49aeb459c1aaad446a7c1fad1dafe
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/utils/requests/locales.ts.html
+  checksum: 70fb62aa9d0f0f7b21eaf3b53f2e4384878c72e8c43b045ddc234176761fc117
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/embeds/EmbededElement.tsx.html
+  checksum: 0d5c90e437a14b3d4b63da3c8c1ef9918f0110b0f9651b12e2efaa48039728e8
+- filename: coverage/lcov-report/ContentTypeField/ContentTypeFieldProperties/Boolean.tsx.html
+  checksum: 8509d0336b9652e144f84b1d997718f172facfad44292f398e5ab151bd079e3e
+- filename: coverage/lcov-report/ContentTypeField/ContentTypeFieldProperties/Url.tsx.html
+  checksum: 2b5662df88f164de23f63ecbbf07f905369800121e1cbd1086df1212a66353de
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/table/utils/createTable.tsx.html
+  checksum: d2dc298b259432485067143b14306ed2c3a91031ef21f14a9f74655605ae0485
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/components/Toolbar/utils/generatElements.tsx.html
+  checksum: d85b44836f32844a924b810e5b25a7e591fbf6122128ec963b9d94a4688fed8a
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/utils/index.html
+  checksum: c04c1f397d3595819c71958678c01f0e5e134e4a4b590ae7c85c2d6ec6686273
+- filename: coverage/lcov-report/DateTime/TimeZoneList.tsx.html
+  checksum: c8f6de97ed68651f32eb58aed4a4201d6a0551e93ef98236c2229f99460ff9f1
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Leaf/strikethrough/index.tsx.html
+  checksum: ad0ce7e26dff1837f848f5505b777d574930bd81d77cb7ad4f4df7a7a75a7614
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/utils/requests/contentTypes.tsx.html
+  checksum: ca24f52a010d7b1137dc264199ba72af1208397a878fde5ea1439fcd3571fd4e
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/components/Toolbar/Button/__tests__/buttons.tsx.html
+  checksum: e8f98401ffdb5189d6578bceea39d75e6f73125441641dc60b11bdd9009a7a7d
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/utils/attributesProvider/elementAttrs.tsx.html
+  checksum: 9c6aeb59100c3c7859d4aee001df15e44457f9d5a6befcbc20817ebf107c0bd4
+- filename: coverage/lcov-report/Graph/PieChart.tsx.html
+  checksum: 548333de3e5c487b492c4ee471f366a9e59670c6e8d48c91667087b0d80093bc
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/image/Modal/SelectImage/Breadcrumb/Breadcrumb.tsx.html
+  checksum: 95c4b6b4b10c6b3d14937ba3d4e6d0252d494fd0d3c38cbd9c543be0c30c745d
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/utils/history/undo/index.tsx.html
+  checksum: e76e8f7ce2f1505e2b990ab2082edcd6dc47b91dff8ec54502ae826dbeb9a114
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Leaf/subscript/index.tsx.html
+  checksum: d4299a81f2c0f05c7e528a36f8e2166e295097bae1c3da34481ce401beb7137c
+- filename: coverage/lcov-report/FieldTypeSelector/FieldTypeSelector.test.tsx.html
+  checksum: 71a3062139871446306b355aab4b2616633898d8029b08aaaae03a50507f539e
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/heading/H1/index.tsx.html
+  checksum: 71aaffe91abb377c40bd19dd3ac63ed5d972a75198085110bca9ae96bc01093e
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/image/Modal/SelectImage/GridView/GridView.tsx.html
+  checksum: 1fabd5252cf4f8fb59d5f109897ccbe3998c4278b8f9e3c6edc07f0e84af9863
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/align/alignJustify/index.tsx.html
+  checksum: fae2b96e6f1276d3c19b846b7c7a1c091b5d74de85653a562311ad0889c2ca5a
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/align/alignLeft/index.tsx.html
+  checksum: 82e11852c41935480080ee97d0147e2e7b2d17b37a9a725f4158292d40b9a51f
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/utils/rtePlugins/helper.ts.html
+  checksum: 670f20fbaaa275f2d3a84d456af77c7a7b08cb5c297d0d1ccbf5675bd6759da7
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/components/Toolbar/utils/generateDropdown.tsx.html
+  checksum: 66f77b00ea369004bf3aeeeed9cdce19ab71d63413ad94e5764122c6f22480c4
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/property/propertyOverlay.tsx.html
+  checksum: 8ac14e512cd0981e6861b719a13e836850cbbd550ad90f22703f5cb5cfbe76c2
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/table/utils/insertRowAfter.tsx.html
+  checksum: 3330c86dc31bb7c980f432de609f78ae51cb4e6b3c1c663a212b8988ec9d43bf
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/embeds/EmbededOverlay.tsx.html
+  checksum: 91288117df7175f043d1beed62d16a4f6d2eac485effd537b3f798c54225dba2
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/image/Modal/SelectImage/GridView/Loader.tsx.html
+  checksum: e1d3d608698c879f31ed1a1afa1f27196822afbe610abd263a39123ecc73fcf0
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/utils/SearchBar/index.tsx.html
+  checksum: 80e87bfaa36fc063c619df3f90af178dd81d5c1763c295f7974d2ed1c2a1143f
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Leaf/bold/index.tsx.html
+  checksum: 252a96223132983d61d3637fad728db4a063e88c614815433876f807d5641194
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/reference/inlineReference/index.tsx.html
+  checksum: 1ac20ed649672e8b7c511e3c45d9502d97ca4e3d8da19f10570479d1a986b57b
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/heading/H5/index.tsx.html
+  checksum: 07fd7287a49b49b1856dd3b9bf914e611b70dd0cfda01bac2ca5e75d194bcae4
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/components/Toolbar/utils/toolbarElements.tsx.html
+  checksum: 61e53ca409ad9fcc7da7fa187238b25e041ff45c22baf032c32e8ffa88522163
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/components/Toolbar/utils/generatElements.tsx.html
+  checksum: 72e66b06b45652fd6a9442a1725a272555a3d9570b539cbd99b8f63c693939bc
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/components/Toolbar/BaseToolbar.tsx.html
+  checksum: 537561c54d68c9da05773c9bb8fce9d4f0a0df1e3ad66eef7270f4bfcf0276be
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/utils/actions/handleDeleteOfElement.tsx.html
+  checksum: 00dea2de46ac151ad2cf625e069d89dfdbe24df045aae075f3ef6703ad13f55b
+- filename: coverage/lcov-report/MarkdownEditor/src/Prism.tsx.html
+  checksum: 737b9b05b2e5f51c1b1f07de727ee374af630aa48790f6d153d41f6487801835
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/heading/H6/index.tsx.html
+  checksum: 3a8649469de206f36aa257870afb7bac0e20c8eb6e98ed6cb7d6da9d8515558e
+- filename: coverage/lcov-report/Tabs.tsx.html
+  checksum: afca42d5a43d7f8be3f04d458a90b851fe22b6f2ca32edc34cbf12b878480975
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/hyperlink/index.tsx.html
+  checksum: 0cc8adb4d6ac25984bb8667f9348b0ef8b3c28f98c3bc7fa48451b9c54f014ec
+- filename: coverage/lcov-report/DateTime/helper.ts.html
+  checksum: 7e839e071d6daf61996c6d5c253c18be0edb2772361565c309e726a59eadf455
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/image/ImageEditModal.tsx.html
+  checksum: 76a181e7ee81436177f13453df01d06d3d20442a6bfbea1e6ee2e5d54cd0788a
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/utils/hooks/keyDownHooks/index.tsx.html
+  checksum: 5a51fdc5390bf9afd7d2a7eed5512626f8a4cf4f3652c608df4d11bc8ecec564
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Leaf/bold/index.tsx.html
+  checksum: 8dc83a7357a61994ebdaf388e42138246dfac5bd594b72f67b95d1bdbe310f4e
+- filename: coverage/lcov-report/Graph/StackedBarGraph.tsx.html
+  checksum: 2c7ebafbf7200579d8a1a4cc815b70c6ca23234c4e1c9c2b03b3ce94d8552bab
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/utils/editHtml/EditHtmlComponent.tsx.html
+  checksum: e9d4c39807db1917e75b6580c4047a345e4a0f223c936e8150a19232533a4eba
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/socialEmbeds/EmbeddedElement.tsx.html
+  checksum: b9f04dfb0292115e0d77f4938939b19448ee6ef594c008a66e9e315f6fbec688
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/embeds/EmbededElement.tsx.html
+  checksum: 072c949adcc4d3a3700f073dda64da331579bacac60209a24ec779cc755e213b
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/embeds/getEmbedUrl.tsx.html
+  checksum: c49a9a811bda0add3fafb864369c652dfbcd9484b4a051693937646ad93b0b13
+- filename: coverage/lcov-report/BranchDisplay/BranchDisplay.tsx.html
+  checksum: 6a9a1d750b46088646458ffe4141a7afe96fba2b879edbd8f8a03be58260596d
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/code/index.tsx.html
+  checksum: efd3629fb39d029f78a3420400c8e15bf05ddceef940086d8b539421284ad4a6
+- filename: coverage/lcov-report/SideBarWindow/SideBarWindow.tsx.html
+  checksum: 5d09effedc87bbbf1bd127e2445b5e2df61ca208d940c0b013867346ab57876d
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/table/utils/insertRowBefore.tsx.html
+  checksum: 7a9729399ced812bb4d61a79072c3a3d3890b8880db2d518adb70d729f82829d
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/image/ImageEditModal.tsx.html
+  checksum: d2e27cb0cebde8361d8e9cd4a6ba202761fc705466903e8169b9f3422fd23afe
+- filename: coverage/lcov-report/Graph/LineGraph.tsx.html
+  checksum: fb021f8efb8c602b89f3ddc64a5b8e8a687fe3248dfd731f829facd5cae5b24d
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/utils/index.html
+  checksum: 0e7b35fe0b2bd94d8075a78b0d46e2f9941de1e220e87720e24d43da89103893
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/embeds/EmbededOverlay.tsx.html
+  checksum: c34bd256a1e78ec1281a008c020d71927193f6761b7ad7f8817e996f85b0a32d
+- filename: coverage/lcov-report/ListRow/ListRow.tsx.html
+  checksum: d103a51c97fe266ccffab4baa2fb0bd54f42450fc56ea159c72e9191ee79779f
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/utils/shortcuts/handleShortcut.tsx.html
+  checksum: 3a18a56e8c35191ffd55e3b53678bc77beefeea8c3c91fa2867ab28f342bca88
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/hyperlink/index.tsx.html
+  checksum: f92585af74ccf263623f2386f3616d59e67fb9d5188ca9221fda491b6b78a830
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/paragraph/index.tsx.html
+  checksum: ccc1c0c796f588e03da4a62dc0b2a87c5322804ce6a0415d00b0e7a33da05dbe
+- filename: coverage/lcov-report/AdvanceSearch/util/common.ts.html
+  checksum: 7a95d63fd4b42f4ef872e108ab7740452eb3e257eb8a4d8f0f1ccd258bad7318
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/image/ImageElement.tsx.html
+  checksum: 2bcb9942215481a4121c19e550fb5fdf37ee41e45757ba358207bf3e7ae82502
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/embeds/getEmbedUrl.tsx.html
+  checksum: ecd341bc1852efdb59e290bf421e559107a17e49fdc62b8f7fa68b341f7e0e08
+- filename: coverage/lcov-report/JsonRTE/lib/rteSDK/index.ts.html
+  checksum: 068b3116944a11c75f0d09109a7d45d5a38c9da9c94060dc350683a51c262354
+- filename: coverage/lcov-report/ClipBoard/ClipBoard.tsx.html
+  checksum: 10076dd58c45efd9507945b5463c16f1a2ba71107091b5d3cf48986dda840522
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/utils/requests/entries.tsx.html
+  checksum: d5a2a2465b4bce5f3353a28f19dfc30ddc7bc689d1e38a4b2e73c02f3a9b3984
+- filename: coverage/lcov-report/Breadcrumb/Breadcrumb.tsx.html
+  checksum: fb5cd0ad7582ee87bcb2decde1c56305606da9f6a095b0c2d50c52084787e499
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/components/Toolbar/toolbarComponents/utils.tsx.html
+  checksum: 0d9b4117661af4361dcd8cfea3825ec530a8317ce92db3371c689d254f5ac21c
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Leaf/underline/index.tsx.html
+  checksum: ac4925ac1f9ab31ef914b3f07d79b1469919e135335a510bb98ce0d5e51d66c7
+- filename: coverage/lcov-report/Select/Creatable.tsx.html
+  checksum: b08fbbd539b260adf7d1e92c856f7c4406246fd21c671dcb6d1af177ab953303
+- filename: coverage/lcov-report/Tabs/Tabs.tsx.html
+  checksum: 9d24fb6a6c7c6df90647f110ac17a31b748eddd61c8344a97c52107d34b86afb
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/reference/assetReference/Asset.tsx.html
+  checksum: 447b5c9ad918abad806a388b5ebfd9c7b5dd86836c78f1d6cfa737e02388967d
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/table/table-column-dnd/index.tsx.html
+  checksum: 9a96db75e1df7b2cdd6ab110ab359bb030244c66e7d2b90217fd40c4ebdc8ec8
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/socialEmbeds/EmbeddedElement.tsx.html
+  checksum: 07568a9c2c88183e4bf137437f84d070f61992345a30e60a20e8e62761ef027c
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Leaf/inlineCode/index.tsx.html
+  checksum: 9a03d692d0f8eff5209477a0b5e25993a81722350406ab5ef02fe1d089143906
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Leaf/superscript/index.tsx.html
+  checksum: 86d82dac6c9468734a6e81136ca75e9583bc905ae500d9637b86ccb8f2d0d3b8
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/components/SlashCommand/SlashElement.tsx.html
+  checksum: 8b2c4703127a59d812a17747822bf33885cd5732806cb76ed0cd333b7d839454
+- filename: coverage/lcov-report/Notification/Notification.tsx.html
+  checksum: 6315eb8bbda1fcc77ffbf02feee50a7db3cb9c9f71d777a4590b7d1b74795b27
+- filename: coverage/lcov-report/ContentTypeField/ContentTypeField.tsx.html
+  checksum: d206b13461860a049e0a8b0864fb43e2cb799f49049a14ff398a0040908ca46a
+- filename: coverage/lcov-report/JsonRTE/lib/rteSDK/actions.ts.html
+  checksum: ba55a4c426c247bcaec7684d7d094d3862297a36b81c474aa326086af3460d10
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/components/Toolbar/Button/index.tsx.html
+  checksum: ce49b7f9416f3724847c3cf3470d7cea9338bee56743e356b9bae8cf982497d5
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/heading/H4/index.tsx.html
+  checksum: e19b058d45338a5dd8e047c080fa391351b344ad985bb34f7e94339ee548c5f7
+- filename: coverage/lcov-report/ContentTypeField/ContentTypeFieldProperties/Reference.tsx.html
+  checksum: 464048fe99c86f72f61f825f3bae312fd1870bd445497b541f3fa70d74bbe4dc
+- filename: coverage/lcov-report/DateTime/DateRange.tsx.html
+  checksum: a196d530268d9007cc106c0f10bb844c26e54a6417cc8b7284596f887dcb20ab
+- filename: coverage/lcov-report/AdvanceSearch/SavedViews.tsx.html
+  checksum: 9169f0a2ace619d87734372afc41d0810a527322135d7dc7ada22a24b4844842
+- filename: coverage/lcov-report/ContentTypeField/ContentTypeFieldProperties/Title.tsx.html
+  checksum: 55db661025cf1dd465c00aec0e2ec86e9d147ef637e22fe01ff1c613a558e962
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/utils/shortcuts/formatShortcut.tsx.html
+  checksum: 9a2f2ee11039d339b3fb843cfbd12a6c9688a457448c10118bfa37a027202be8
+- filename: coverage/lcov-report/Table/InfiniteScrollTable.test.tsx.html
+  checksum: 3512b519afb2c2de543c9ada8114d84f6cdf919ee1f21cb3a61f1856e57cf9b7
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/components/Toolbar/utils/generateToolbar.tsx.html
+  checksum: bc8aa6524ab3cb5a7da384d84db2969400d3aca6d946e24b95f61b822948d5be
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/components/Toolbar/Button/__tests__/buttons.tsx.html
+  checksum: f26064c237a133536d5fe50c6c2c762b018749459cada4486ed6603d89216e53
+- filename: coverage/lcov-report/Select/ContentEditor.tsx.html
+  checksum: 5979e721e95c22762196e429b6180960836c9a19933911cc65b0d2c767dae448
+- filename: coverage/lcov-report/DateRangePicker/DateRangePicker.tsx.html
+  checksum: 593ba8bb9e7c71cc5e697da5f2d38fa5caddaca1f0873fdd37bf9a92007055f3
+- filename: coverage/lcov-report/PersonalizationQueryBuilder/query-fragment-builder.tsx.html
+  checksum: 217b5f22b75963b91648cfdd8044c201405c57d6932bc057e95e33c50343d5bb
+- filename: coverage/lcov-report/ContentTypeField/ContentTypeFieldProperties/Custom.tsx.html
+  checksum: 55d9bbb4c84e0f136cfbd3f7e0f675f0c705bac196311e7cfb0cb1f5f4fb6144
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/hyperlink/hyperlinkOverlay.tsx.html
+  checksum: 6638b495dad6675cbc1ba6826e8c3b170a793a5e0512eb12ff2defd33d10074f
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/components/Editor/index.tsx.html
+  checksum: 7982add6371781fcb4c861e7876e51870f1346a1037480b380b7857b580f8775
+- filename: coverage/lcov-report/TextInput/TextInput.tsx.html
+  checksum: 75ec544b6d47e7c03f61be54d79b7dcb9982e77fd1adea574c0ca5e1a21ea192
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/components/Toolbar/utils/toolbarElements.tsx.html
+  checksum: 750fdbde4f7567d1df4d4a5641ec379643baf9750a33a63675220bd4c670e3c8
+- filename: coverage/lcov-report/SaveVersionDropdown/SaveVersionDropdown.tsx.html
+  checksum: 3fac0a23d89d5e4e1d82e807b1aaed8332586d41f5a6fcd24552d2a3ad79bd3c
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/image/ImageElement.tsx.html
+  checksum: 853a6ac2cb18f8dba9421a892de1183c134d45702ec5464b0f95bc4f86d8d285
+- filename: coverage/lcov-report/ContentTypeField/ContentTypeFieldProperties/Number.tsx.html
+  checksum: 8e80b1a499df0f9a41bc59f449e68328167b5af2d69b3e97bb6d502f1e7b10c6
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/components/Toolbar/BaseToolbar.tsx.html
+  checksum: 2bfa6e74e3212e3cf4f550fe673937f4685f0b4f689a184177d0eb393bd6f38e
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/utils/shortcuts/handleShortcut.tsx.html
+  checksum: 99cc30b0f5d50bf07c73ac1169f4dea53394c117ad59a7020589bdff244b4aba
+- filename: coverage/lcov-report/ContentTypeField/ContentTypeFieldProperties/MultiLineText.tsx.html
+  checksum: 38204c9f4dde7184b1c4c4cf529a951e6355f2f55e1cbe4a439efc025101cf60
+- filename: coverage/lcov-report/AdvanceSearch/SearchBodyFooter.tsx.html
+  checksum: 4433c52088b6335fefdd88ffdb6221c9e285cfa6ab48f32a52ec9fca81019542
+- filename: coverage/lcov-report/AdvanceSearch/util/constants.ts.html
+  checksum: 1d00efe9c699469edbb6679412662e1df073ccb174a5374d157ec7cb36cfd408
+- filename: coverage/lcov-report/ContentTypeField/ContentTypeFieldProperties/Link.tsx.html
+  checksum: b62d63768976009c814b63e589b847a3de98243f7922ff5b413019da9dbd2f64
+- filename: coverage/lcov-report/Select/Select.tsx.html
+  checksum: 58b706730cb55a03dd338d10af66e68971ad446307a8221d9ac09f8fbc5d8b69
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/components/Editor/index.tsx.html
+  checksum: f716b03cd3527e789e12bf9047bbf0731a3f7e5db9beaeef8d0298512a04844d
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/reference/utils/components/PublishDetails.tsx.html
+  checksum: 0cb39fecefc8447ec38727c4e4ee910e27d1e531d3bd5bd280a58059b0f6ce75
+- filename: coverage/lcov-report/AdvanceSearch/AutoComplete.tsx.html
+  checksum: 42f5af30b4f346f0f28735a2924097af210e2e5cfad2fa09d862000c295f3a27
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/components/SlashCommand/SlashComponent.tsx.html
+  checksum: 8003898243a3662440230246aa155e0ff0f17db6ee4c89e04425ea0ff8954818
+- filename: coverage/lcov-report/AdvanceSearch/AdvanceSearchQuery.tsx.html
+  checksum: 9deac391460afbd2a7fe1e1a87b02d2e79c69dfc57e47dd6e903fd6edf2b9e81
+- filename: coverage/lcov-report/ContentTypeField/ContentTypeFieldProperties/RichTextEditor.tsx.html
+  checksum: 98a6a669cdd4940fec736667ac8ff43387510dd854f80b0a734fa2c1f96cf6a2
+- filename: coverage/lcov-report/ContentTypeField/ContentTypeFieldProperties/JsonRte.tsx.html
+  checksum: 0e5234fea2f3f181abd12d650fc81dfda386faad7d5c16dd4624bc017a447c82
+- filename: coverage/lcov-report/Select/AsyncSelect.tsx.html
+  checksum: 91d5b54bbdfef55b22e8651803a213bd9ba902b5a0655ba86f659b868a43eaa3
+- filename: coverage/lcov-report/ContentTypeField/ContentTypeFieldProperties/Date.tsx.html
+  checksum: abe315e1e567c47e3fc9b6c4c56894db9cb7e96be8e206f7ca97307197c5985b
+- filename: coverage/lcov-report/AdvanceSearch/SearchFilter/utils.ts.html
+  checksum: daf83a6f73902859bdf9ba839ee472bdccb36c4a09b95739dfa26e1eac89027c
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/utils/serialize/toRedactor.tsx.html
+  checksum: 6af9b1be20c545a115c0292a41e93a80c3b10152932702f5c505fd53a30346cd
+- filename: coverage/lcov-report/AdvanceSearch/util/advanceQueryEntries.ts.html
+  checksum: 38098d4d7f4fb07b0322f595137ec6ce1b41338dd9c1bc75a168783f30e137a0
+- filename: coverage/lcov-report/AdvanceSearch/SearchBar.tsx.html
+  checksum: 13c8fb75105e39e7fa940b48032365bfd31285b967d28fb0639b3bdde3e9cd3d
+- filename: coverage/lcov-report/AdvanceSearch/SearchFilter/FilterDropdown.tsx.html
+  checksum: e42e405e687eaf2c299678c4e287e32d96053915c4475d8d28f95ec6599b8a45
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Leaf/mark/index.tsx.html
+  checksum: 5d8aa40589c07edc0f38827a7304107c49ae885d044ef618e78e43c93144278f
+- filename: coverage/lcov-report/AdvanceSearch/util/assets.ts.html
+  checksum: 0167e2886e05ea395067eb7f90f3ee08d9c8852673ece8b9779e19465e124ad7
+- filename: coverage/lcov-report/ReleaseList/ReleaseList.tsx.html
+  checksum: 2a7cc95d31355a4c7346023dafef384acca4a51a6d3d13615730b1258dbfc1c9
+- filename: coverage/lcov-report/AdvanceSearch/util/entries.ts.html
+  checksum: cc7f71aee419a17ba9b18f7063a0885070e8ebf15a4bb2c73a1f06f7b81d746b
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/image/Modal/Upload/View/UploadThumbnailView.tsx.html
+  checksum: df73aacc30a53c1afefa0a14de53a0468e02edbc04ada542199d9b6863bc40f8
+- filename: coverage/lcov-report/AdvanceSearch/util/helpers.ts.html
+  checksum: 98cb7ae5b5ed9f18a509f9db2eddd21554997106ddb40d4c6dfe19df3120d31a
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/utils/shortcuts/formatShortcut.tsx.html
+  checksum: a25c27c99d93f48a6bc302ba5326b80725a7baddc696be20bfe8ca72db676907
+- filename: coverage/lcov-report/ContentTypeField/ContentTypeFieldProperties/File.tsx.html
+  checksum: d87386dc8014c82fe732a838369c41f282fcc095731b4a6a284a98a7f787b75e
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/reference/assetReference/EditCaptionAlt.tsx.html
+  checksum: 1629a6d5ccb5f9668c4fe05745b0d574301b4f1057a62833c36f94170392761b
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/utils/serialize/fromRedactor.tsx.html
+  checksum: 12328614f7bce5e31a1fb1a4a64dca1b82cf16635d7f04a4b1625e7683cd9485
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/utils/index.tsx.html
+  checksum: 641613e06eaa944dc812acd718026aed3fd3ca6567ea95c276e49af2493e88e7
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/table/utils/insertColBefore.tsx.html
+  checksum: dbbea34b9f11cb6e925abad8fcca1026cedf356716f64e6809a66787c83551b2
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/utils/requests/assets.tsx.html
+  checksum: 30e14c7a9df3add2620c974c50a64856eb18d8696291ca048fc0be8182db0dde
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Leaf/removeFormatting/removeFormatting.tsx.html
+  checksum: f3023158c6b7599ef61caa73868c2826d1b43e7aa25c69a748ddaed1e3b234a0
+- filename: coverage/lcov-report/ContentTypeField/ContentTypeField.test.tsx.html
+  checksum: 0a75c982b6de422643251b5a6f7f2c45afbec912a9b5032829352f57c8bcc83e
+- filename: coverage/lcov-report/ContentTypeField/ContentTypeFieldProperties/Markdown.tsx.html
+  checksum: 83427ed38e562cd1f32286a1f426ab3d7b6dc57bb5637affb5219ab255a38503
+- filename: coverage/lcov-report/ContentTypeField/helper.tsx.html
+  checksum: 250ec5af55cd04c4b992cdb26a8dcd0a524452f4ffd483abf579ba20bbc84752
+- filename: coverage/lcov-report/ContentTypeField/ContentTypeFieldProperties/SelectField.tsx.html
+  checksum: 9d9aead1bb5a670d767e0b598cd8c63999dc15fd5c254e3feb6129ac918f3ed5
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Leaf/removeFormatting/withRemoveFormatting.tsx.html
+  checksum: 99377e589e56b36598b989ed32f9bbc99ac9c690900196326dbd79b9531e1dd0
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/reference/utils/referenceButton.tsx.html
+  checksum: d45161e73f9e2112a4480e9f538a5edcb87171dc132074ab892886a776b24a2b
+- filename: coverage/lcov-report/ContentTypeField/ContentTypeFieldProperties/SingleLineText.tsx.html
+  checksum: 8b4737349a6f74038355e5c9517cdd65748555d1774cd88b7f44c1c42ab70a86
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/reference/assetReference/index.tsx.html
+  checksum: 0bb653379ab39c0972387bbe4e6474e9e80c43425d3f2d5e0094c79e39e83c1e
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/property/propertyOverlay.tsx.html
+  checksum: 473e2d6f0117a51f26116c59f9d81ad32dffe15c10d0b21c5c57f1321f2c77e8
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/utils/requests/entries.tsx.html
+  checksum: 06a3e21f8c701fcffc8848c000b0503ee2729be5ff82ede39b19e9986443e8c1
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/heading/H5/index.tsx.html
+  checksum: 557c176e2e12d07e354a415f022ca31e9d64c7c0f25ae09e9288f2b66aecbe4f
+- filename: coverage/lcov-report/MarkdownEditor/src/elements/image/Modal/Upload/View/UploadThumbnailView.tsx.html
+  checksum: 66f2cc08ba2b67a87631e8312b5d892c77882821d523890ab9f0395a4c66ad6d
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/table/utils/insertColAfter.tsx.html
+  checksum: 59eb3065a620c2cb56878f52875f282c6b809e4751471ed41daa69f5c6eb03d5
+- filename: coverage/lcov-report/MarkdownEditor/src/Leaf.tsx.html
+  checksum: cc05612227b74e4dab2b2881e6b4dc480ec283fbd64137227ccae653c1bf0846
+- filename: coverage/lcov-report/MultiLevelDropdown/MultiLevelDropdown.tsx.html
+  checksum: 9933bb5fb65621bed52d8d400b892703d1fe6d50723b904bedb8b3a3f96fe1db
+- filename: coverage/lcov-report/AdvanceSearch/AdvanceSearch.tsx.html
+  checksum: c26c592a70bed5b099a36fee7bd499b4c5f95b37f28753e1aeb8eda3d834a342
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/table/utils/insertColBefore.tsx.html
+  checksum: 069df8adc6f6622b850e4103747459d8b279972706c32bfaa2ad1aaf93756b22
+- filename: coverage/lcov-report/Icon2/constants.ts.html
+  checksum: 01c83299d69f773f54f04df155026a6c31d27850fae114b87067bd0a21fae45f
+- filename: coverage/lcov-report/DropDown/Dropdown.tsx.html
+  checksum: 267c5e360a0c7a93cacdc7a7b00c20b0756e95a871876f204b26e937b1235d27
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/table/utils/insertRowAfter.tsx.html
+  checksum: 86a234276cca55cbdc1133e8e318479244a42d988b4bfb3ffd0c23ea3ec7db40
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/divider/DividerElement.tsx.html
+  checksum: 4d418d63209c7032f81743326571d443f59403a6a52dc3663268975d763b7eb1
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/reference/index.tsx.html
+  checksum: a9898828c2b1eed27b9d70a5b3fa9b957ed76e9d89e895c13d4dcef42dd1ed53
+- filename: coverage/lcov-report/Table/Table.tsx.html
+  checksum: 64a8cff45a49953a72cb849b2a6254e8e1bc107bf48a97be71564502df5b039f
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/heading/H2/index.tsx.html
+  checksum: 38f47b3a163b708610fc8128c4e5389324fd022f55f0c66c27b1d6f97d9c78fc
+- filename: coverage/lcov-report/MarkdownEditor/src/elements/image/Modal/SelectImage/Breadcrumb/Breadcrumb.tsx.html
+  checksum: 157d90ca73b7ab50aa2c46bdf04db55620762f22679dbe2c2aecb794673eefeb
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/reference/inlineReference/index.tsx.html
+  checksum: c83044945510a2368f232700b51918ab7ec0d58f58577b11310ea747fd009e8c
+- filename: coverage/lcov-report/RichTextEditor/RichTextEditor.tsx.html
+  checksum: a6e0444b926a6a833190a0edc2959798cab9b1636f8c74cd28d182c04e96e27f
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/reference/utils/components/EmbedLinkBody.tsx.html
+  checksum: ef885bd2731c3b69f4cabde8b0e9ce0b251935c84f2daf8cf8079bbc8d2ca346
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/reference/utils/components/PublishStatusComponent.tsx.html
+  checksum: d69c7b92b027815b4397f06c35dd69b3b11f4653e1ee4737a3363da139ee8e44
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/reference/utils/components/PublishDetails.tsx.html
+  checksum: d20ed7581294180a9c0ee01a06062f2aec3dce011929e53a3362bf51c3c9085e
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/reference/utils/components/ReferenceBody.tsx.html
+  checksum: 3ef3a6d6769f9eec1c825e6f7f0f8f505cc3f2d1d3e45173847a1756bb94110b
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/reference/utils/utils.tsx.html
+  checksum: d1ae6cdf891498ea3e8845b0ef15d6ab1f55e20ed620f3b40b296d76c4e24a8a
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/reference/assetReference/Asset.tsx.html
+  checksum: 7a53be383d50991da7b34ae58704f6f7ba809c0e5d80d3b0dd60654ae83f0f47
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/reference/linkReference/index.tsx.html
+  checksum: 2e20dca887e8a65d4de4d4572090d0660209d9e27e4115e830abf0f2620e3050
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/heading/H6/index.tsx.html
+  checksum: 4536249927c640f1f187e158986b75bed0a4068e77c430b9e1d43eb6efcdf5a4
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/table/utils/insertRowBefore.tsx.html
+  checksum: 4bf8285d69b973ee9712da341c2962bea69e2095e4c2401b9461a0d79dddfa20
+- filename: coverage/lcov-report/ContentTypeField/ContentTypeFieldProperties/Global.tsx.html
+  checksum: 8b80719cf1213c26c44364dcb7cd874cbc0bee0501c20122768e304cfe9a1338
+- filename: coverage/lcov-report/ContentTypeField/ContentTypeFieldProperties/ModularBlocks.tsx.html
+  checksum: 1849182347f26139cdecf9eff7fda9caa02d8e0b864999437363039baf02b45e
+- filename: coverage/lcov-report/StackCard/StackCard.tsx.html
+  checksum: 2f29616fab42cdc460af9e68bd426c19836fdd2ac861e188f174e473a4f68371
+- filename: coverage/lcov-report/MarkdownEditor/src/elements/image/request.tsx.html
+  checksum: d9b5dadd41743eb91b57bf95d25bc044952507d48f01b6a1dc9eeb5e89cb122d
+- filename: coverage/lcov-report/Stepper/Stepper.tsx.html
+  checksum: e0ea75dc5f141894d1e051cf2f6899da1fffd8f9419aea3470fee6b159e4136d
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/socialEmbeds/EmbeddedOverlay.tsx.html
+  checksum: 6c6a6fb40e976dce99d51cc19eb1563851576620c4a64eeb572c3a4846bd9d57
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/utils/pasteHtml/deserializer/superchargedRTEDeserializer.tsx.html
+  checksum: 010cd90808351bfbba64e3af23e9b8168a7a692416ae31e699ff81429c97ddbf
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/hyperlink/hyperlinkOverlay.tsx.html
+  checksum: 28720547e418838c19ff44b955777a4ec0b26355d5009b954624893d612a32bb
+- filename: coverage/lcov-report/MarkdownEditor/src/App.tsx.html
+  checksum: 78ca21e65d3858ecebc9e939a599d5b112087cfd81caebe42bac5660de3b9a61
+- filename: coverage/lcov-report/PageHeader/PageHeader.tsx.html
+  checksum: 76ae48c96dac379327f7dd0efbd2f1fbe7a9aad429f7c3cc8d9d2e66853c5025
+- filename: coverage/lcov-report/Avatar/Avatar.tsx.html
+  checksum: db5a517531ef4cbc209ca86a8b614b794f013d44d0d80934440a86ca0cfd21d0
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/socialEmbeds/EmbeddedOverlay.tsx.html
+  checksum: 9806df0c66723b5a3039e1e0cd63a2b4d0d8eb55a5bd1033e72b6350fbc9e506
+- filename: coverage/lcov-report/Tag/TagEditor.tsx.html
+  checksum: 5b2d12800def2de4dcfb1b7d49b19346867718c71d3d789df1b76bf209fd12e8
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/contentstack/reference/utils/referenceButton.tsx.html
+  checksum: 04b8f359c1ba0c252cca5e4ab84d55018a6ef6d2e38a4d4a1a95eaf230fed3ff
+- filename: coverage/lcov-report/MarkdownEditor/src/elements/link/handleMouseDown.tsx.html
+  checksum: b773c02da0518d251710a7e10fb9ea027104a58a61833071ebd950fc7d52d21c
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/elements/Element/table/table-column-dnd/index.tsx.html
+  checksum: 6c821356545ccb6d372956bea0d42bb85414daf115f9a2661b026b1d9d20b7cb
+- filename: coverage/lcov-report/TagAsSelect/TagAsSelect.tsx.html
+  checksum: 4d538c984c6253deef647ac91ea7b34951d9fbb60df8f9978989d0116e8fd9db
+- filename: coverage/lcov-report/JsonRTE/SuperChargedRte/components/Toolbar/toolbarComponents/EditorButtons.tsx.html
+  checksum: 3c7d89fc6fcb15dead448720c2db64d1fed26987ffbdee0643857184395db91e
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/table/utils/createTable.tsx.html
+  checksum: ac2512c22ad861fb9833517ecd12f2c71594b30cf60e5538ce2451591472d9ce
+- filename: coverage/lcov-report/Carousel/Carousel.tsx.html
+  checksum: 5ef782fa8b55d886853691f280bd1fda00e05d06985c21f9df977ab0b35aa91d
+- filename: coverage/lcov-report/ContentTypeField/ContentTypeField/ModularBlocks/BlocksSlider.tsx.html
+  checksum: 0b58e912ddb5c721e703c4b521e3fdf1e1f1ad3d16e7a479d32b491e87812351
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/elements/Element/contentstack/utils/requests/contentTypes.tsx.html
+  checksum: 0934160cc3a90d4dec22c5c3d2b9e632f9addb2072afeb7aa2d8bc6cc8d02401
+- filename: coverage/lcov-report/RichTextEditor/SuperChargedRte/components/Toolbar/toolbarComponents/EditorButtons.tsx.html
+  checksum: 02a482466f640ef934059e474dc4bbe0e0e9aa5c2d35f21b1b76fe76e3b5659c
+- filename: coverage/lcov-report/AdvanceSearch/SearchFilter/SearchFilter.tsx.html
+  checksum: 1b3a0a0d01884131ebcf1e5905df467fea633b9f221e9439189a7af2eaf2c21f
+- filename: coverage/lcov-report/Table/InfiniteScrollTable.tsx.html
+  checksum: a52bc42732c7f9532bc70c0914da0a0f91af67c8e6e51a2e39d7c0eb2d11a322
+version: ""
