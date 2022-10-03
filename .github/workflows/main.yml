@@ -28,9 +28,9 @@ jobs:
         
       - name: Run tests
         run: |
-          npx jest --coverage --config ./test/jest.config.js | tee ./coverage.txt
+          npx jest --coverage --coverageReporters json-summary --config ./test/jest.config.js
 
       - name: Jest coverage comment
         uses: MishaKav/jest-coverage-comment@main
         with:
-          coverage-path: ./coverage.txt
+          coverage-path: ./coverage/coverage-summary.json
