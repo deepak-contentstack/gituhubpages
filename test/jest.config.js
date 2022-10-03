@@ -26,7 +26,7 @@ module.exports = {
     '<rootDir>/src/components/RichTextEditor/SuperChargedRte/elements/Element/align/alignCenter/*.{js,jsx,ts,tsx}',
     '!**/vendor/**'
   ],
-  coverageReporters: ['lcov', 'json'],
+  coverageReporters: ['lcov', 'json-summary'],
   coverageThreshold: {
     global: {
       branches: 0,
