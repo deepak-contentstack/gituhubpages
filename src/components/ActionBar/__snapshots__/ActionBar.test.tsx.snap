@@ -19,6 +19,7 @@ Array [
           data-test-id="cs-tooltip"
         />
         Abc
+        This is test commit
       </div>
     </div>
   </div>,

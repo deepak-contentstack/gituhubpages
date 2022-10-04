@@ -1,33 +1,39 @@
-name: Build and publish test coverage
+name: 'coverage'
 on:
-  push:
+  pull_request:
     branches:
       - master
-  pull_request:
-    types: [opened, synchronize, reopened]
-
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@master
-    - name: Set up Node.js
-      uses: actions/setup-node@master
-      with:
-        node-version: 12.0.0
-    - name: Install NPM dependencies
-      run: npm install 
-    - name: Run Jest tests and generate coverage report
-      run: npm test
-    - name: Run Build
-      run: npm run build
-    - uses: ArtiomTr/jest-coverage-report-action@v2
-      id: coverage
-      with:
-          output: report-markdown
-    - uses: marocchino/sticky-pull-request-comment@v2
-      with:
-          message: ${{ steps.coverage.outputs.report }}
-      env:
-        GITHUB_TOKEN: $
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          node-version: '14.x'
+
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+
+      - name: Install deps
+        run: npm install
+        
+      - name: Run tests
+        run: |
+          npm run test
+
+      - name: Jest coverage comment
+        uses: MishaKav/jest-coverage-comment@main
+        with:
+          coverage-path: ./coverage/coverage.txt
+          coverage-summary-path: ./coverage/coverage-summary.json
+          remove-links-to-files: true
+          remove-links-to-lines: true
