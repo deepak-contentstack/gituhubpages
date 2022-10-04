@@ -35,3 +35,5 @@ jobs:
         with:
           coverage-path: ./coverage/coverage.txt
           coverage-summary-path: ./coverage/coverage-summary.json
+          remove-links-to-files: true
+          remove-links-to-lines: true
